@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Enrico Sibilia an Eugenio Pacelli, Wien 20.07.1932</title>
+            <author><persName>Enrico Sibilia</persName></author>
+            <respStmt>
+               <resp>TEI tempalte prepared by</resp>
+               <persName ref="#daniel.schopper">Daniel Schopper</persName>
+               <persName ref="#stephan.kurz">Stephan Kurz</persName>
+            </respStmt>
+            <respStmt>
+               <resp>edited by</resp>
+               <persName ref="#bernhard.kronegger">Bernhard Kronegger</persName>
+            </respStmt>
+            <respStmt>
+               <resp>kollationieren</resp>
+               <persName ref="#andreas.steingress">Andreas Steingress</persName>
+               <persName ref="#bernhard.kronegger">Bernhard Kronegger</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <!-- To be decided -->
+            <publisher>Publication Information</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc status="Reinschrift">
+               <msIdentifier>
+                  <repository>AA.EE.SS., Periodo IV, Austria Ungheria</repository>
+                  <idno type="archive">Pos. 869, Fasc. 33, Fol. 15r</idno>
+                  <idno type="institutional" subtype="internal">2152/32</idno>
+                  <idno type="institutional" subtype="external">14.092/635</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <note type="keyword" resp="#bernhard.kronegger">Bischofsernennung Wien</note>
+                     <note type="keyword" resp="#bernhard.kronegger">Wenzel Grosam</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <scriptDesc>
+                     <ab>Maschinenschriftlich</ab>
+                  </scriptDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <p>Nuntius Sibilia habe den Auftrag, welcher mit dem Telegramm Nr. 29 angeordnet wurde,
+               ausgeführt. Msgr. Grosam sei persönlich zu ihm gekommen und habe ihm den angehängten
+               Brief überreicht mit der Bitte, ihn an Seine Heiligkeit weiterzuleiten. In dem Brief
+               lege er die ernsten Hindernisse dar, die ihn davon abhalten, die Würde anzunehmen. Er
+               habe hinzugefügt, dass er gewillt sei zu gehorchen, dass er aber den Wunsch habe
+               abzulehnen, wenn ihm dies ohne Sünde möglich sei.</p>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Enrico Sibilia</persName>
+               <date when="1932-07-20">20.07.1932</date>
+               <placeName>Wien</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Eugenio Pacelli</persName>
+               <placeName>Vatikanstadt</placeName>
+            </correspAction>
+         </correspDesc>
+
+      </profileDesc>
+   </teiHeader>
+   <text type="Brief">
+      <body>
+         <pb n="1"/>
+         <opener>
+            <seg type="subjectLine">Oggetto: Cifrato N. 29 Mgr. Gorsam.</seg>
+            <salute>Eminenza Reverendissima,</salute>
+         </opener>
+         <p>Mi recai a doverosa premura di eseguire con ogni delicatezza l’incarico affidatomi dalla
+            Emienenza Vostra Reverendissima col venerato cifrato N. 29 del 16 corrente mese; come
+            con ogni delicatezza eseguii quanto l’E.V.R. mi significava nell’altro venerato cifrato
+            N. 28 del 9 luglio <choice>
+               <sic>c..</sic>
+               <corr>c.m.</corr>
+            </choice></p>
+         <p>Mgr. Grosam in questi ultimi giorni erasi recato in montagna per prendere qualche
+            riposo; ed essendo assente da Linz, la mia seconda lettera gli fu rimessa dove
+            trovavasi. Da qui il ritardo nell’averne la risposta.</p>
+         <p>Questa mattina è venuto Egli personalmente da me e mi ha consegnato, chiusa, l’unita
+            lettera con preghiera di farla giungere nelle auguste Mani di Sua Santità, dicendomi che
+            in essa espone le gravi difficoltà che ha di accettare l’altissima dignità, cui il Santo
+            Padre vorrebbe elevarlo, ed aggiungendo che sebbene sia sempre disposto ad obbedire,
+            pure egli desidera rifiutarla, se ciò può farlo senza peccato.</p>
+         <closer>
+            <salute><lb/>Inchinato al bacio della Sacra Porpora, col più profondo ossequio ho
+               <lb/>l’onore di riaffermarmi <lb/>della Eminenza Vostra Reverendissima </salute>
+            <note type="foliation" rend="typewritten">15</note>
+            <signed rend="handwritten"><lb/>Umilissimo, devmo, obbmo Servo <lb/>+Enrico, Arciv. di
+               Side <lb/>Nunzio Aplico</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

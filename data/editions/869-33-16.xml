@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wenzel Grosam an Pius XI., Wien 20.07.1932</title>
+            <author><persName>Wenzel Grosam</persName></author>
+            <respStmt>
+               <resp>TEI tempalte prepared by</resp>
+               <persName ref="#daniel.schopper">Daniel Schopper</persName>
+               <persName ref="#stephan.kurz">Stephan Kurz</persName>
+            </respStmt>
+            <respStmt>
+               <resp>edited by</resp>
+               <persName ref="#bernhard.kronegger">Bernhard Kronegger</persName>
+            </respStmt>
+            <respStmt>
+               <resp>kollationieren</resp>
+               <persName ref="#andreas.steingress">Andreas Steingress</persName>
+               <persName ref="#bernhard.kronegger">Bernhard Kronegger</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <!-- To be decided -->
+            <publisher>Publication Information</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc status="Reinschrift">
+               <msIdentifier>
+                  <repository>AA.EE.SS., Periodo IV, Austria Ungheria</repository>
+                  <idno type="archive">Pos. 869, Fasc. 33, Fol. 16r+v – 17r+v</idno>
+                  <idno type="institutional" subtype="internal">2152/32</idno>
+                  <idno type="institutional" subtype="external">Beilage zu 14.092/635</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <note type="keyword" resp="#bernhard.kronegger">Bischofsernennung Wien</note>
+                     <note type="keyword" resp="#bernhard.kronegger">Wenzel Grosam</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <scriptDesc>
+                     <ab>Handschriftlich</ab>
+                  </scriptDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <p>Der Autor legt seine Gründe dar, warum er die Ernennung zum Erzbischof von Wien nicht
+               annehmen möchte:</p>
+            <list>
+               <item n="1.">Er sei gebürtiger Böhme mit einem böhmischen Vor- und Nachnamen. Wie
+                  überall auf der Welt seien auch die Österreicher, auch die guten Katholiken, vom
+                  Geist des Nationalismus infiziert und würden daher die Ernennung eines böhmischen
+                  Vorstehers zurückweisen. Der Umstand, dass ein Böhme namens „Wenceslaus“ zum
+                  Erzbischof ernannt wird, würde Spott in den verschiedenen sozialen Kreisen Wiens
+                  hervorrufen. Die Feinde der Kirche, die in Wien sehr zahlreich und mächtig seien,
+                  würden dies nutzen und hätten leichtes Spiel, um dies bei jeder Gelegenheit als
+                  Waffe gegen die apostolische Autorität einzusetzen, die einen solchen Leiter
+                  ausgewählt habe. Dies würde auch der katholischen Kirche in Wien schaden, die
+                  bereits genug bedroht sei.</item>
+               <item n="2.">Er sei der Bevölkerung und der Erzdiözese in Wien ein völlig Fremder und
+                  habe sich nie für längere Zeit dort aufgehalten, höchstens einige Tage für die
+                  Erledigung etwaiger Geschäfte. Von seiner ländlichen Gemütsart und Ausbildung
+                  geprägt, scheue er vor großen Städten zurück. Aus dem Klerus der Erzdiözese kenne
+                  er kaum Priester; in der Stadt Wien kenne er weder Leute, noch Kirchen, noch Wege.
+                  Er wäre daher, wenn er zum Bischof ernannt würde, für mehrere Jahre völlig auf Rat
+                  und Unterstützung anderer angewiesen. Er wisse zwar, dass der Wiener Klerus, die
+                  Seminare, Pfarren, Schulen etc. auf Reformen angewiesen seien; ein Bischof, der die
+                  Umstände nicht kenne und aus der Provinz komme, könne diese aber kaum
+                  durchsetzen.</item>
+               <item n="3.">Er bitte daher den Heiligen Vater, dass er nicht von der strengen
+                  Gehorsamspflicht Gebrauch mache, um ihn zur Annahme zu zwingen. Der Papst
+                  möge ihn verschonen und einen anderen auswählen, welcher die Wiener Kirche hüten
+                  soll.</item>
+            </list>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Wenzel Rosam</persName>
+               <date when="1932-07-20">20.07.1932</date>
+               <placeName>Wien</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Pius XI.</persName>
+            </correspAction>
+            <correspAction type="forwarded">
+               <persName>Enrico Sibilia</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="1"/>
+         <opener>
+            <salute>Beatissime Pater!</salute>
+         </opener>
+         <p>Wenceslaus Grosam, sacerdos dioecesis Linciensis, ad pedes Sanctitatis Vestrae humillime
+            provolutus, usus facultate sibi per literas Nuntiaturae Apostolicae Viennensis dd. 17
+            Julii 1932 facta, Sanctitati Vestrae exponere audet rationes, quae ipsum impediunt, ne
+            electioni ad Archiepiscopatum Viennensem acquiescat.</p>
+         <p>Et <hi rend="underline">primo</hi> quidem: Nativus ego sum ex Bohemia, nomen meum tum
+            familiare tum baptismale est nomen Bohemicum. Jamvero, uti ubique fere terrarum,
+            praesertim hisce in regionibus Austriacis, etiam optimus quisque catholicus Nationalismi
+            sensu ac spiritu aliquatenus infectus est, praesertim post bellum infelice, quod patriam
+            nostram in nationes inimicas disrupit; vulgus vero, ecclesiae catholicae plus minus
+            abalienatum, Praesulem, imo Parochum exosae nationis Bohemicae a limine repudiat. – Unum
+            hoc, quod novo Archiepiscopo nomen sit “Wenceslaus” et quod ex Bohemia sit oriundus, ab
+            unde sufficeret, ut in foliis et diariis, in circolis et conventibus, in colloquiis
+            familiaribus Vindobonensium ludibrio exponeretur. Hostes vero ecclesiae, qui plurimi
+            sunt Viennae et potentes, hisce armis facillimis ludibrii libentissime utentur <note
+               type="foliation" rend="typewritten">16</note>
+            <pb n="2"/>statim ab initio et quavis repetita occasione, in damnum auctoritatis
+            Apostolicae, quae talem elegit Praesulem, et in majus damnum ecclesiae Vindobonensis jam
+            adeo periclitantis!</p>
+         <p><hi rend="underline">Secundo</hi>: Alienus ego omnino sum in civitate et Archidioecesi
+            Viennensi: numquam hic versatus aut commoratus sum, nisi forte ad unum alterumve diem
+            vel aliquod horas ad negotium explendum, cum tota indole et educazione mea rustica
+            magnas istas urbes abhorream. Ex universo clero Archidioecesis vix unum alterumve
+            sacerdotem obiter cognosco. In urbe Viennensi nec viros nec plateas nec ecclesias scio;
+            rerum vero ecclesiasticarum omnino ignarus sum. – Si nunc ego Episcopatum hujus
+            Archidioecesis susciperem, per complures annos speculatoris inertis personam agere
+            coactus forem, omnino aliorum informationibus et consiliis extraditus: non dux et
+            praesul Cleri, sed ductus ab iis, quibus praeesse deberem. Scio equidem, quod palam
+            notum est, multa satis in Clero, Seminariis, parochiis, scholis etc Viennae reformanda
+            esse: sed quidni Episcopus, rerum et personarum ignarus, “ex provincia”, ut aiunt
+            Vindobonenses, adductus, obtinebit?</p>
+         <pb n="3"/>
+         <p><hi rend="underline">Tertio</hi> tandem: Beatissime Pater, per viscera misericordiae
+            Jesu Christi rogo, ne stricto mandato obbedientiae opprimas conscientiam jam satis
+            angustiatam pauperrimi sacerdotis, qui vulnera animae suae Confessario suo sincere
+            detegere non verecundatur, sed actis et scriptis confiteri erubescit!</p>
+         <p>Et si nulla electio canonica effectum sortitur, nisi electus interrogatus liberum
+            consensum dederit;</p>
+         <p>si ex lege universali ecclesiae nemo clericus ad altiorem ordinis gradum assumendum
+            mandato vel praecepto proprie dicto constringendus est:</p>
+         <p>ad pedes Sanctitatis Vestrae provolutus, licet tremens et indignationem Summi Pontificis
+            veritus, repetere audeo, quod jam prima vice, interrogatus de consensu meo, scripsi:</p>
+         <p>quatenus nemo sine consensu suo libere dato ordinandus est, ego quidem consensum ad
+            ordinem Episcopatus suscipiendum, pro conscientia mea, sine sacrilega praesumptione dare
+            non valeo.</p>
+         <p>Parce mihi, Sanctissime Pater, aliumque dignare eligere, qui pascat Ecclesiam
+            Viennensem.</p>
+         <p>Et haec quidem, cum tremore et fiducia simul, sincere coram Deo Sanctitati Vestrae <note
+               type="foliation" rend="typewritten">17</note>
+            <pb n="4"/>aperire debui, quum Celsissimus Nuntius Apostolicus Viennensis mihi
+            rescripserit: “.. si forte Amplitudo Tua graves, positivas, reales et concretas habeat
+            difficultates, quae Te ad obediendum absolute impediunt, fas tibi sit eas Ipsi
+            Beatissimo Patri sincere fidenterque exponerre.“</p>
+         <closer>
+            <salute><lb/>Iterum veniam et misericordiam <lb/>Sanctitatis Vestrae implorat
+               <lb/>filius humillimus </salute>
+            <signed><lb/>Wenceslaus Grosam <lb/>sacerdos Linciensis </signed>
+            <placeName>Viennae Austriae</placeName>, <date>d. 20 Julii 1932.</date>
+         </closer>
+      </body>
+   </text>
+</TEI>

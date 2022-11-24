@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Johannes Maria Gföllner an Giuseppe Pizzardo, Linz 14.08.1932</title>
+            <author>Johannes Maria Gföllner</author>
+            <respStmt>
+               <resp>TEI tempalte prepared by</resp>
+               <persName ref="#daniel.schopper">Daniel Schopper</persName>
+               <persName ref="#stephan.kurz">Stephan Kurz</persName>
+            </respStmt>
+            <respStmt>
+               <resp>edited by</resp>
+               <persName ref="#bernhard.kronegger">Bernhard Kronegger</persName>
+            </respStmt>
+            <respStmt>
+               <resp>kollationieren</resp>
+               <persName ref="#andreas.steingress">Andreas Steingress</persName>
+               <persName ref="#bernhard.kronegger">Bernhard Kronegger</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <!-- To be decided -->
+            <publisher>Publication Information</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc status="Reinschrift">
+               <msIdentifier>
+                  <repository>AA.EE.SS., Periodo IV, Austria Ungheria</repository>
+                  <idno type="archive">Pos. 869, Fasc. 33, Fol. 46r+v – 49r</idno>
+                  <idno type="institutional" subtype="internal">2422/32</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <note type="keyword" resp="#bernhard.kronegger">Bischofsernennung Wien</note>
+                     <note type="keyword" resp="#bernhard.kronegger">Theodor Innitzer</note>
+                     <note type="keyword" resp="#bernhard.kronegger">Wenzel Grosam</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <scriptDesc>
+                     <ab>Maschinenschriftlich</ab>
+                  </scriptDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <p>Bischof Gföllner habe den Brief erhalten, der ihn gebeten habe, seine Ansicht über Msgr.
+               Theodor Innitzer als Kandidaten für den Erzbischofssitz von Wien mitzuteilen. Zuerst
+               wolle er aber darauf hinweisen, dass die „gewichtigen Gründe“ des Msgr. Wenzel Grosam,
+               diese Beförderung nicht anzunehmen, in Wirklichkeit nicht existieren würden. Zu Msgr.
+               Innitzer habe er selbst nur wenige Informationen, da er einer anderen Diözese
+               angehöre und sich ob der vom „Secretum S. Officii“ vorgeschriebenen Einschränkungen
+               nicht näher erkundigen könne. Was den Lebenslauf angehe, so sei Innitzer am 25.12.1875
+               in Weipert in Böhmen (heute Tschechoslowakei) geboren, 1902 zum Priester geweiht worden und
+               seit 1913 ordentlicher Professor an der Theologischen Fakultät (Exegese des Neuen
+               Testaments) der Universität Wien. Zugleich sei er Oberer der „Societas Missionum
+               Reginae Apostolorum“ und der religiösen Kongretation „filiae B.V. a Caritate Boni
+               Pastoris“, als auch Direktor des Instituts des Hl. Thomas in Wien, einer
+               Priesterbildungseinrichtung. Schließlich sei er noch Generalsekretär der „Unione
+               Leonina“ und „Consiliarius deputatus pro administratione temporalium“ des
+               Diözesanseminars. Im Jahr 1908 habe er ein wissenschaftliches Werk unter dem Titel
+               „Johannes der Täufer: Nach der Heiligen Schrift und Tradition dargestellt“
+               veröffentlicht. Seit 1911 setze er den Bibelkommentar des verstorbenen Professor
+               Pölzl fort. Er sei auch hauptsächlicher Autor einer „Geschichte der Bibel“ welche
+               seit 1927 für den Katechismus in den öffentlichen Schulen Österreichs verwendet
+               werde.</p>
+            <p>Gföllner kenne Innitzer seit 18 Jahren und habe vor allem in den letzten Jahren,
+               als er Minister war, oft mit ihm zu tun gehabt. Er sehe ihn als exemplarischen
+               Priester, eifrig und fähig, höflich und sehr freundlich. Er wäre nach Ansicht des
+               Autors als Erzbischof gut geeignet. Er sei auch von vielen nach dem bedauerlichen Tod
+               von Kardinal Piffl als Nachfolger genannt worden. Der Autor glaube aber, dass dies
+               auch damit zu tun haben könne, dass sich einige nach einem Kirchenführer milden
+               Wesens und mit versöhnlichem Charakter sehnen, statt nach einem, der auf Prinzipien
+               beharre und mit starker Hand führe. Dies seien aber genau die Eigenschaften, die für
+               einen künftigen Erzbischof unverzichtbar wären, und dies wünschten sich auch jene,
+               welche die Wankelmütigkeit und Leichtigkeit des Wiener Wesens beklagen. Die Wiener
+               würde sich eines „goldenen Herzens“ rühmen, sich aber mit einem sogenannten
+               „christlichen“ Evangelium zufriedengeben, welches nicht sehr katholisch sei. An
+               diesem Punkt gebe es keinen Zweifel, dass Msgr. Grosam ein unvergleichlich
+               energetischerer und stärkerer Reformer wäre als Msgr. Innitzer, welche wohl ein wenig
+               zu entgegenkommend und kulant wäre. Der Autor wolle aber nicht auf dieses Urteil
+               insistieren und empfehle weitere Nachforschungen und auch eine kirchliche Person aus
+               Wien zu befragen, die Innitzer näher kenne.</p>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Johannes Maria Gföllner</persName>
+               <date when="1932-08-14">14.08.1932</date>
+               <placeName>Linz</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Giuseppe Pizzardo</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text type="Brief">
+      <body>
+         <pb n="1"/>
+         <opener><salute>Eccellenza Illma e Revma,</salute></opener>
+         <p>Tornato il 12 <sic>m.c.</sic> da un breve soggiorno di vacanze, ho trovato la
+            veneratissima lettera di V. Eccellenza Illma e Revma del 6 agosto in cui mi prega di
+            dare le più ampie informazioni intorno all’Illmo e Revmo Mons. Teodoro Innitzer, nuovo
+            candidato che Sua Santità intende elevare alla sede arcivescovile di Vienna, giacché il
+            primo candidato l’Illmo e Revmo Mons. Venceslao Grosam <sic>avveva</sic> opposto serie
+            ragioni alla sua accettazione.</p>
+         <p>Dopo un giorno di matura deliberazione, credo dunque di poter e dover dare le seguenti
+            informazioni.</p>
+         <div type="chapter" n="I.">
+            <p>Innanzi tutto vorrei dire che le “serie ragioni” che l’Illmo e Revmo Mons. Venceslao
+               Grosam oppone alla sua promozione alla sede arcivescovile di Vienna, al mio parere
+               non esistono in realtà,</p>
+            <note type="foliation" rend="typewritten">46</note>
+            <!-- Hier fehlt fol. 47 in der Mappe - muss noch ergänzt werden! -->
+         </div>
+         <div>
+            <pb/>
+            <!-- Hier noch Zeitenzahl einfügen, sobald fol. 47 ergänzt wurde -->
+            <p>confessare che le informazioni che posso dare io, saranno scarse, appartenendo il
+               detto Monsignore ad un’altra diocesi ed essendo io impedito dal “Secretum S.
+               Officii”, di informarmi più minutamente intorno al detto candidato.</p>
+            <p>Quanto al suo “curriculum vitae”, posso offrire le date seguenti. È nato il 25 Dic.
+               1875 in Weipert in Boemia (adesso Cecoslovacchia), ordinato sacerdote 1902 e fin
+               dall’anno 1913 professore ordinario e pubblico nella facoltà teologica (studi biblici
+               ed esegesi del N. S.) dell’Università di Vienna. Nello stesso tempo è Superiore della
+               “Societas Missionum Reginae Apostolorum” e della Congregazione religiosa delle
+               “filiae B. V. a Caritate Boni Pastoris”, come anche direttore dell’Istituto di San
+               Tommaso a Vienna, che serve all’educazione ed istruzione di sacerdoti e chierici di
+               diocesi estere; finalmente è Segretario generale dell’”Unione Leonina” (Società
+               scientifica a Vienna) e consiliarius deputatus pro administratione temporalium
+               seminariorum archidioecesis. È prelato domestico di Sua Santità (fin dall’anno 1931)
+               e nell’anno 1930/31 <pb/>occupava l’ufficio di ministro pubblico nel ministero
+               d’amministrazione sociale.</p>
+            <p>Nell’anno 1908 pubblico un’opera scientifica “Giovanni Battista secondo la S.
+               Scrittura e Tradizione” e fin dall’anno 1911 continuò “il commentario dell’evangelio”
+               di + professore Poelzl. È anche autore principale della “Storia biblica” che si
+               adopera nell’istruzione catechetica delle scuole pubbliche in Austria fin dall’anno
+               1927.</p>
+            <p>Lo conosco sin da circa 10 anni e specialmente negli ultimi anni più volte trattava
+               con lui come ministro pubblico in diversi affari concernenti l’aggrandimento del mio
+               seminario maggiore, il quale favoriva in ogni modo.</p>
+            <p>Lo trovo e tengo sacerdote esemplare, di spirito veramente ecclesiastico, zelante ed
+               abile, di maniere gentili e molto affabili.</p>
+            <p>Al mio parere sarebbe anche lui ben idoneo e degno di essere promosso alla dignità
+               della sede arcivescovile di Vienna, ed infatti già poco tempo dopo la morte
+               deplorabile di Sua Eminenza Cardinale Piffl, da più lati fu anche egli nominato suo
+               successore, benché io creda che in grande parte<note type="foliation"
+                  rend="typewritten">48</note>
+               <pb/>questo desiderio corrisponda ai voti di quelli che vorrebbero un arcivescovo di
+               indole benigna, di carattere conciliante piuttosto che non insista troppo su
+               “principî” e non faccia sentire una mano forte; ma appunto queste qualità sarebbero
+               desiderabili, per non dire indispensabili, per il futuro arcivescovo e vengono anche
+               desiderate da quelli che deplorano la volubilità e leggerezza del carattere dei
+               Viennesi, che si vantano d’”un cuore d’oro”, ma credono di potersi contentare di un
+               vangelo cosidetto “cristiano”, ma non troppo “cattolico.”</p>
+            <p>Ed appunto in questo riguardo non c’è il <sic>menomo</sic> dubbio che Mons. Grosam
+               sarebbe un riformatore incomparabilmente più energico e forte che non Mons. Innitzer,
+               il quale temo che sia un po’ condiscendente<add place="above" hand="#UR"
+                  >nachgiebig</add> ed annuente<add place="above" hand="#UR">zustimmend</add>.</p>
+            <p>Ma ripeto che io non voglia troppo insistere sul mio giudizio, non conoscendo forse
+               di modo sufficiente il carattere di Mons. Innitzer; certo sarà necessario di
+               informarsi su di lui ancora per mezzo di una persona ecclesiastica <pb/>in Vienna che
+               lo conosca abbastanza.</p>
+            <p>Queste sono le informazioni che credo possa dare con tutta la responsabilità di
+               coscienza in un affare di sommo momento.</p>
+         </div>
+         <closer>
+            <salute><lb/>Mi approfitto dell’occasione per raffermarmi <lb/>con sensi di
+               profondissima venerazione. <lb/>di V. Eccellenza Illma e Revma <lb/>servitore
+               umilissimo in Cristo </salute><signed><lb/>+Johannes Maria Gfoellner <lb/>Vescovo di
+               Linz </signed>
+         </closer>
+         <note type="foliation" rend="typewritten">49</note>
+      </body>
+   </text>
+</TEI>

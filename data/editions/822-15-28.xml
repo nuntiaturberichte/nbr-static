@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="doc3765_35">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Enrico Sibilia an Giuseppe Pizzardo, Wien 25.10.1935</title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/1013145208">Enrico Sibilia</persName>
+            </author>
+            <respStmt>
+               <resp>TEI tempalte prepared by</resp>
+               <persName ref="#daniel.schopper">Daniel Schopper</persName>
+               <persName ref="#stephan.kurz">Stephan Kurz</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <!-- Test -->
+            <publisher>…</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="Reinschrift">
+               <msIdentifier>
+                  <repository>AA.EE.SS, Periodo IV, Austria Ungheria</repository>
+                  <idno type="archive">Pos. 822, Fasc. 15, Fol. 28r+v – 29r+v</idno>
+                  <idno type="institutional" subtype="internal">3765/35</idno>
+                  <idno type="institutional" subtype="external">17.167/875</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <note type="keyword" resp="#bernhard.kronegger">Innenpolitik</note>
+                     <note type="keyword" resp="#bernhard.kronegger">Rerum novarum</note>
+                     <note type="keyword" resp="#bernhard.kronegger">Quadragesimo anno</note>
+                     <note type="keyword" resp="#bernhard.kronegger">Heimwehr</note>
+                     <note type="keyword" resp="#bernhard.kronegger">Joseph Dobretsberger</note>
+                     <note type="keyword" resp="#bernhard.kronegger">Emil Fey</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <scriptDesc>
+                     <ab>Maschinenschriftlich</ab>
+                  </scriptDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <p>Nuntius Sibilia nimmt Bezug auf das Schreiben <rs type="document" ref="nbr:doc3765_35">N.
+                  3394/35 vom 01.10.1935</rs> und weist darauf hin, dass die darin geäußerten
+               Vorwürfe und Befürchtungen nicht der Realität entsprächen. Der Vorwurf sei gewesen,
+               dass der österreichische Staat in politischen und sozialen Fragen den Enzykliken
+               „Rerum novarum“ und „Quadragesimo Anno“ widersprechende Prinzipien anwende, was
+               besonders den katholischen Arbeitern schade. Die Befürchtung sei gewesen, dass der
+               radikal linksliberale Flügel der Heimwehren im Gewerkschaftsbund die Überhand über
+               die Katholiken bekomme. Dies habe sich mit der Kabinettsänderung und der Ernennung
+               von Joseph Dobretsberger, einem beispielhaften Katholiken mit ausgeprägtem sozialem
+               Gewissen, zum Sozialminister erledigt. Mit der Entfernung von Major Fey dem
+               Hauptvertreter des „radikal linksliberalen Flügels“ der Heimwehren aus der Regierung,
+               habe sich auch die Furcht vor der Errichtung einer Diktatur durch diesen Flügel
+               erübrigt. Zu dem komme hinzu, dass mit der Regierungsmaßnahme vom 17.10.1935 alle
+               bewaffneten Freiwilligenorganisationen zur „Freiwilligen Miliz – Österreichischer
+               Heimatschutz“ unter der Führung von Fürst Starhemberg fusioniert worden seien. Damit
+               könne kein Zweifel an der Absicht der Regierung bestehen, zu verhindern, dass
+               Extremisten in Österreich die Oberhand gewinnen.</p>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="http://d-nb.info/gnd/1013145208">Enrico Sibilia</persName>
+               <date when="1935-10-25">25.10.1935</date>
+               <placeName>Wien</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="http://d-nb.info/gnd/1110822049">Giuseppe Pizzardo</persName>
+               <placeName>Vatikanstadt</placeName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#bernhard.kronegger">Updated the teiHeader, added msContents, added
+            markup</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="Brief">
+      <body>
+         <opener>
+            <pb n="1"/><seg type="subjectLine">Oggetto: Circa l’acchiuso esposto</seg>
+            <salute>Eccellenza Reverendissima,</salute>
+         </opener>
+         <p>Circa l’esposto, trasmessomi dalla Eccellenza Vostra Reverendissima col pregiato foglio
+            del <rs type="document" ref="nbr:doc3765_35">1° c. m. N. 3394/35</rs>, che qui acchiuso
+            ritorno, dal titolo “Die sozialpolitische Lage in Oesterreich und die katholische
+            Arbeiterschaft”, dopo attento esame del medesimo ed assunte sicure recentissime
+            informazioni al riguardo, mi è grato il dovere di riferirLe che i rimproveri ed i timori
+            in esso manifestati, non corrispondono certamente a verità, essendo inspirati, più che
+            da una chiara visione dei fatti, da un pessimismo di chi dà prova di non essere libero
+            da quella vecchia mentalità degli antichi partiti politici.</p>
+         <p>Essenzialmente essi possono ridursi a due:</p>
+         <list>
+            <item>1°) <hi rend="underline">Rimprovero</hi> alla Stato austriaco “cristiano” di
+               applicare, in materia politico-sociale, principii e metodi contrarii a quelli
+               stabiliti dalle sublimi Encicliche “rerum Novarum” e “Quadragesimo Anno”, con danno
+               degli operai, specialmente cattolici, i quali, secondo l’autore, fin’ora
+               attenderebbero invano di essere qualche cosa nella vita pubblica austriaca.</item>
+            <item>2°) <hi rend="underline">Timore</hi> che l’ala sinistra radicale liberaleggiante
+               delle “Heimwehren”, onde prendere un sopravvento definitivo su quella cattolica <note
+                  type="foliation" rend="typewritten">28</note>
+               <pb n="2"/>occupare posti nel Gewerkschaftsbund, che sarebbero stati meglio
+               disimpegnati da elementi cattolici; ma tale influenza è ora cessata affatto col
+               rimpasto del Gabinetto Schuschnigg. Il nuovo Ministro della Previdenza Sociale, prof.
+               Giuseppe <hi rend="underline" hand="#UR">Dobretsberger</hi>, nato n Linz da famiglia
+               cattolica esemplare, è un uomo non solo di profondi sentimenti cattolici, ma anche di
+               scienza sociale soda e cristiana, che merita tutta la confidenza degli operai
+               cristiani.</item>
+         </list>
+         <p>Il <hi rend="underline">timore</hi> poi che l’ala sinistra radicale liberaleggiante
+            delle Heimwehren instauri una dittatura in Austria, non ha fondamento alcuno. Essa non
+            esercitò mai sul “Fronte Patriottico” quella <hi rend="underline">grande</hi> influenza
+            che vorrebbe far credere l’esposto: in primo luogo perché la grande maggioranza dei Capi
+            delle Heinwehren nelle rispettive Provincie le era del tutto contraria, e poi perché con
+            l’avvenuto recente rimpasto ministeriale quell’ala ha ricevuto il colpo, direi mortale,
+            venendo a perdere col Maggiore <hi rend="underline" hand="#UR">Fey</hi> il suo
+            rappresentante principale nel Governo. A tutto ciò aggiungasi che col provvedimento
+            governativo del 17 c.m. tutte le organizzazioni volontarie armate austriache
+            (Heimwehren, Ostmärkische Sturmscharen, Freiheitsbund etc…) sono state fuse in una sola
+            organizzazione di difesa nazionale, la quale prendendo il nome di “Freiwillige Miliz –
+            Oesterreichischer Heimatschutz” (milizia volontaria di difesa patriottica austriaca),
+            sotto la direzione del Principe Starhemberg, dovrà tenersi in istretto contatto con
+            l’esercito propriamente detto. Tale provvedimento, mentre non lascia dubbio alcuno sulle
+            rette intenzioni di questo Governo, dirette ad impedire efficacemente <note
+               type="foliation" rend="typewritten">29</note>
+            <pb n="3"/>il sopravvento in Austria di elementi estremisti, dà a vedere nello stesso
+            tempo in quale conto debba tenersi la fatua asserzione di un Capo delle Heimwehren, che
+            sembra preoccupi tanto il compilatore dell’esposto, e cioè (pag. 9): “Ancora nel
+            corrente anno si avrà in Austria la vittoria completa delle Heimwehren”.</p>
+         <p>Con le precise informazioni che antecedono, sono certo che anche l’E.V.R. potrà
+            giudicare qual valore possa darsi all’esposto.</p>
+         <closer>
+            <salute><lb/>Con i sensi del più devoto ossequio godo raffermarmi <lb/>della Eccellenza
+               Vostra Reverendissima <lb/>devotissimo Servitore</salute>
+            <signed rend="handwritten"><lb/>Enrico Arciv. Di Side <lb/>Nunzio Apostolico</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

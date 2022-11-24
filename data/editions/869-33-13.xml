@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Enrico Sibilia an Eugenio Pacelli, Wien 11.07.1932</title>
+            <author>Enrico Sibilia</author>
+            <respStmt>
+               <resp>TEI tempalte prepared by</resp>
+               <persName ref="#daniel.schopper">Daniel Schopper</persName>
+               <persName ref="#stephan.kurz">Stephan Kurz</persName>
+            </respStmt>
+            <respStmt>
+               <resp>edited by</resp>
+               <persName ref="#bernhard.kronegger">Bernhard Kronegger</persName>
+            </respStmt>
+            <respStmt>
+               <resp>kollationieren</resp>
+               <persName ref="#andreas.steingress">Andreas Steingress</persName>
+               <persName ref="#bernhard.kronegger">Bernhard Kronegger</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <!-- To be decided -->
+            <publisher>Publication Information</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc status="Reinschrift">
+               <msIdentifier>
+                  <repository>AA.EE.SS., Periodo IV, Austria Ungheria</repository>
+                  <idno type="archive">Pos. 869, Fasc. 33, Fol. 13r</idno>
+                  <idno type="institutional" subtype="internal">2025/32</idno>
+                  <idno type="institutional" subtype="telegram">71</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <note type="keyword" resp="#bernhard.kronegger">Bischofsernennung Wien</note>
+                     <note type="keyword" resp="#bernhard.kronegger">Wenzel Grosam</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <scriptDesc>
+                     <ab>Maschinenschriftlich</ab>
+                  </scriptDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <p>Msgr. Wenzel Grosam habe nicht vor, seine Ernennung zu akzeptieren. Ein Bericht
+               darüber werde per Expresspost zugestellt.</p>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Enrico Sibilia</persName>
+               <date when="1932-07-11">11.07.1932</date>
+               <placeName>Wien</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Eugenio Pacelli</persName>
+               <date when="1932-07-12">12.07.1932</date>
+               <placeName>Vatikanstadt</placeName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text type="Telegramm">
+      <body>
+         <pb n="1"/>
+         <p>Ricevuto Cifrato No. 28. Mons. Venceslao Grosam non intende affatto accettare. Segue
+            rapporto spedito per espresso.</p>
+         <closer><signed>Nunzio.</signed></closer>
+         <note type="foliation" rend="typewritten">13</note>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Enrico Sibilia an Eugenio Pacelli, Wien 09.05.1933</title>
+            <author><persName>Enrico Sibilia</persName></author>
+            <respStmt>
+               <resp>TEI tempalte prepared by</resp>
+               <persName ref="#daniel.schopper">Daniel Schopper</persName>
+               <persName ref="#stephan.kurz">Stephan Kurz</persName>
+            </respStmt>
+            <respStmt>
+               <resp>edited by</resp>
+               <persName ref="#bernhard.kronegger">Bernhard Kronegger</persName>
+            </respStmt>
+            <respStmt>
+               <resp>kollationieren</resp>
+               <persName ref="#andreas.steingress">Andreas Steingress</persName>
+               <persName ref="#bernhard.kronegger">Bernhard Kronegger</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <!-- To be decided -->
+            <publisher>Publication Information</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc status="Reinschrift">
+               <msIdentifier>
+                  <repository>AA.EE.SS., Periodo IV, Austria Ungheria</repository>
+                  <idno type="archive">Pos. 852, Fasc. 25, Fol. 78r+v</idno>
+                  <idno type="institutional" subtype="internal">1383/33</idno>
+                  <idno type="institutional" subtype="external">14.858/702</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <note type="keyword" resp="#bernhard.kronegger">Innenpolitik</note>
+                     <note type="keyword" resp="#bernhard.kronegger">Christlichsoziale Partei</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <scriptDesc>
+                     <ab>Maschinenschriftlich</ab>
+                  </scriptDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <p>Vom 05. bis 07. Mai habe in Salzburg ein Kongress der österreichischen
+               Christlichsozialen getagt, unter Teilnahme der wichtigsten österreichischen
+               politischen Persönlichkeiten. Für das deutsche Zentrum habe Dr. Boltz als Vertreter
+               teilgenommen. Der Kongress sei ruhig verlaufen, obwohl die Nationalsozialisten
+               versucht hätten, Unordnung zu stiften. Ziel des Kongresses sei es gewesen, die Kräfte
+               der Christlichsozialen Partei zu erneuern. Von den vielen gehaltenen Reden habe der
+               Nuntius die des Bundeskanzlers Dr. Dollfuß, des Heeresministers Vaugoin und des
+               Justizministers Dr. Schußnigg gehört. Auch Msgr. Filzer der Weihbischof von Salzburg
+               habe geglaubt sprechen zu müssen, der Nuntius meine aber, er hätte es besser
+               unterlassen, auch weil seine Worte nicht glücklich gewählt waren.</p>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Enrico Sibilia</persName>
+               <date when="1933-05-09">09.05.1933</date>
+               <placeName>Wien</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Eugenio Pacelli</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text type="Brief">
+      <body>
+         <pb n="1"/>
+         <opener>
+            <seg type="subjectLine">Oggetto: Congresso dei Cristiano-Sociali in Salisburgo</seg>
+            <salute>Eminenza Reverendissima,</salute>
+         </opener>
+         <p>I Cristiano-Sociali austriaci hanno tenuto dal 5 al 7 c.m. in Salisburgo un congresso di
+            qualche importanza, con la partecipazione delle principali personalità politiche
+            austriache e di alcuni personaggi esteri, tra cui il Dr. Boltz del Württemberg, in
+            rappresentanza del Centro germanico.</p>
+         <p>Il Congresso si è svolto tranquillamente non ostante qualche tentativo dei Socialisti
+            nazionali di provocare disordini (frustrato però con prontezza ed energia dalla forza
+            pubblica) e in apparenza aveva per iscopo la rinnovazione delle cariche del Partito dei
+            Cristiano-sociali, la relazione sull’operato del medesimo in questi ultimi mesi e
+            particolarmente il rinnovamento della vita del Partito stesso con l’introduzione di
+            necessarie modificazioni.</p>
+         <p>Tra i molti discorsi ivi pronunciati, mi sembra che abbiano qualche importanza, per i
+            sentimenti di profondo attaccamento alla Chiesa Cattolica, quelli delle LL. EE. il
+            Cancelliere Federale Dr. Dollfuss, del Ministro <note type="foliation"
+               rend="typewritten">78</note>
+            <pb n="2"/>della Milizia Sig. Carlo Vaugoin, Capo del Partito Cristiano-sociale, e del
+            Ministro di Giustizia Dr. Schuschnigg, che a titolo di sola informazione mi permetto qui
+            acchiudere.</p>
+         <p>Anche S.E. Mgr. <hi rend="underline" hand="#UR">Filzer</hi>, Vescovo Ausiliare di
+            Salisburgo, ha creduto intervenirvi, e secondo me avrebbe fatto meglio astenersene,
+            anche perché il suo dire non è stato troppo felice.</p>
+         <closer>
+            <salute><lb/>Inchinato al bacio della Sacra Porpora, col più profondo ossequio ho
+               <lb/>l’onore di raffermarmi <lb/>della Eminenza Vostra Reverendissima </salute>
+            <signed rend="handwritten"><lb/>Umilissimo, devmo, obbmo Servo <lb/>+Enrico, Arciv. di
+               Side <lb/>Nunzio Aplico </signed>
+         </closer>
+      </body>
+   </text>
+</TEI>
