@@ -1,0 +1,80 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at.at/nbr-pius-xi" xml:id="nbr__869-33-41.xml" prev="https://id.acdh.oeaw.ac.at.at/nbr-pius-xi/nbr__869-33-38.xml" next="https://id.acdh.oeaw.ac.at.at/nbr-pius-xi/nbr__869-33-42.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Giuseppe Pizzardo an Augustin Bea, Vatikanstadt 06.08.1935</title>
+            <author>Giuseppe Pizzardo</author>
+            <respStmt>
+               <resp>TEI tempalte prepared by</resp>
+               <persName ref="#daniel.schopper">Daniel Schopper</persName>
+               <persName ref="#stephan.kurz">Stephan Kurz</persName>
+            </respStmt>
+            <respStmt>
+               <resp>edited by</resp>
+               <persName ref="#bernhard.kronegger">Bernhard Kronegger</persName>
+            </respStmt>
+            <respStmt>
+               <resp>kollationieren</resp>
+               <persName ref="#andreas.steingress">Andreas Steingress</persName>
+               <persName ref="#bernhard.kronegger">Bernhard Kronegger</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <!-- To be decided -->
+            <publisher>Publication Information</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc status="draft">
+               <msIdentifier>
+                  <repository>AA.EE.SS., Periodo IV, Austria Ungheria</repository>
+                  <idno type="archive">Pos. 869, Fasc. 33, Fol. 41r</idno>
+                  <idno type="institutional" subtype="internal">2293/32</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <note type="keyword" resp="#bernhard.kronegger">Bischofsernennung Wien</note>
+                     <note type="keyword" resp="#bernhard.kronegger">Theodor Innitzer</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <scriptDesc>
+                     <ab>Handschriftlich</ab>
+                  </scriptDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <p>Der Heilige Vater überlege, Msgr. Theodor Innitzer, Professor der Exegese an der
+               Universität Wien, zum Erzbischof von Wien zu erheben. Davor wolle Seine Heiligkeit
+               aber genaue Informationen über den Kandidaten einholen und bitte daher um seine
+               Stellungnahme.</p>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Giuseppe Pizzardo</persName>
+               <date when="1935-08-06">06.08.1935</date>
+               <placeName>Vatikanstadt</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Augustin Bea</persName>
+               <placeName>Pullach bei München</placeName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text type="Brief">
+      <body>
+         <pb n="1"/><head><hi rend="underline">Sub Secret S. Officii</hi></head>
+         <p>Il Santo Padre Si propone di elevare alla Sede arcivescovile di Vienna l’Illmo e Revmo
+            Mons. Teodoro Innitzer, Professore di S. Scrittura nella Università di Vienna.</p>
+         <p>Prima, però, di procedere alla nomina definitiva, Sua Santità desidera <del rend="strikethrough">conoscere</del> avere dalla P. V. Rma precise informazioni sul
+            candidato e conoscere il suo apprezzato parere.</p>
+         <closer><salute>Nel pregarla di ciò, profitto volentieri dell’incontro
+            per</salute></closer>
+         <note type="foliation" rend="typewritten">41</note>
+      </body>
+   </text>
+</TEI>

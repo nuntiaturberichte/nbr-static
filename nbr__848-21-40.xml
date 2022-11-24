@@ -1,0 +1,113 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at.at/nbr-pius-xi" xml:id="nbr__848-21-40.xml" prev="https://id.acdh.oeaw.ac.at.at/nbr-pius-xi/nbr__848-20-71.xml" next="https://id.acdh.oeaw.ac.at.at/nbr-pius-xi/nbr__848-21-41.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Eugenio Pacelli an Enrico Sibilia, Vatikan 12.06.1933</title>
+            <author>
+               <persName>Eugenio Pacelli</persName>
+            </author>
+            <respStmt>
+               <resp>TEI tempalte prepared by</resp>
+               <persName ref="#daniel.schopper">Daniel Schopper</persName>
+               <persName ref="#stephan.kurz">Stephan Kurz</persName>
+            </respStmt>
+            <respStmt>
+               <resp>edited by</resp>
+               <persName ref="#bernhard.kronegger">Bernhard Kronegger</persName>
+            </respStmt>
+            <respStmt>
+               <resp>kollationieren</resp>
+               <persName ref="#andreas.steingress">Andreas Steingress</persName>
+               <persName ref="#bernhard.kronegger">Bernhard Kronegger</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <!-- To be decided -->
+            <publisher>...</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc status="draft">
+               <msIdentifier>
+                  <repository>AAEESS, Periodo IV, Austria Ungheria</repository>
+                  <idno type="archive">Pos. 848, Fasc. 21, Fol. 40r</idno>
+                  <idno type="institutional" subtype="internal">1613/33</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <note type="keyword" resp="#bernhard.kronegger">Nationalsozialismus</note>
+                     <note type="keyword" resp="#bernhard.kronegger">Anschluss</note>
+                     <note type="keyword" resp="#bernhard.kronegger">Dollfuß</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <scriptDesc>
+                     <ab>Maschinenschriftlich</ab>
+                  </scriptDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <p>Kardinalstaatssekretär Pacelli habe aus zuverlässiger nichtösterreichischer Quelle
+               erfahren, dass der Klerus in Österreich, statt die Regierung des Kanzlers Dollfuß zu
+               unterstützen, in Teilen der nationalsozialistischen Bewegung zugeneigt sei. Ein
+               deutscher Minister habe kürzlich verkündet, dass die österreichische Frage in sechs
+               Monaten zugunsten Deutschlands gelöst sein werde. Zwar habe Kanzler Dollfuß sich bei
+               seinem letzten Aufenthalt in Rom seiner Sache zuversichtlich gezeigt und auch
+               keinerlei Klage über die Einstellung des Klerus vorgebracht, man wolle aber dennoch, dass
+               die Sache vom Nuntius untersucht werde.</p>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Eugenio Pacelli</persName>
+               <date when="1933-06-12">12.06.1933</date>
+               <placeName>Vatikanstadt</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Enrico Sibilia</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text type="Brief">
+      <body>
+         <pb n="1"/>
+         <p>E’ stato riferito alla Santa Sede da fonte autorevole, non austriaca, che il Clero
+            dell’Austria, invece di appoggiare <add place="above" rend="handwritten">apertamente</add> l’attuale Governo <del rend="overwritten">xxxxx</del> presieduto
+            dal Cancelliere Federale Signor Dollfuss, il quale dà piena garanzia per il bene della
+            Chiesa, si mostrerebbe incerto ed in parte <add place="above" rend="handwritten">anzi</add> quasi inclinato a favor<subst>
+               <del rend="overwritten">i</del>
+               <del rend="strikethrough">re il</del>
+               <add rend="overwritten">e</add>
+               <add place="aboce" rend="handwritten">del</add>
+            </subst> movimento <subst>
+               <del rend="strikethrough">Nazionalsocialista</del>
+               <add place="above" rend="handwritten">hitleriano</add>
+            </subst>. Si è anche risaputo che un Ministro del <subst>
+               <del rend="strikethrough">Reich</del>
+               <add place="above" rend="handwritten">Governo</add>
+            </subst> Germanico ha detto recentemente che fra sei mesi la questione dell’Austria sarà
+            risoluta in favore della Germania, il che significherebbe la vittoria del Partito
+            Nazionalsocialista in Austria e conseguentemente anche l’unione di questa alla
+            Germania.</p>
+         <p> Sebbene il Cancelliere Dollfuss, nella sua ultima permanenza in Roma, abb<subst>
+               <del rend="overwritten">u</del>
+               <add rend="overwritten">i</add>
+            </subst>a mostrato invece piena fiducia nella <del rend="strikethrough">sua</del>
+            vittoria sugli elementi contrari al suo indirizzo, e nell’affermazione dell’indipendenza
+            dell’Austria, e non abbia <subst>
+               <del rend="overwritten">mostrato</del>
+               <add place="above" rend="typewritten">mosso</add>
+            </subst> alcun<del rend="overwritten">a</del> lamento circa l’attitudine del Clero,
+            tuttavia per venerato incarico del Santo Padre, prego Vostra Eccellenza Rev.ma<subst>
+               <del rend="strikethrough">a darmi</del>
+               <add place="above" rend="handwritten">di procurarsi e di inviare</add>
+            </subst> opportune informazioni al riguardo.</p>
+         <closer>
+            <lb/><add rend="handwritten">Profitto...</add>
+         </closer>
+      </body>
+   </text>
+</TEI>
