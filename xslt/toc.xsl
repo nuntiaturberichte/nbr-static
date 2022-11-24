@@ -24,13 +24,14 @@
                     <div class="container-fluid">
                         <div class="card">
                             <div class="card-header">
-                                <h1>Table of Contents</h1>
+                                <h1>Editionseinheiten</h1>
                             </div>
                             <div class="card-body">
                                 <table class="table table-striped display" id="tocTable" style="width:100%">
                                     <thead>
                                         <tr>
                                             <th scope="col">Titel</th>
+                                            <th scope="col">Datum</th>
                                             <th scope="col">Dateinname</th>
                                         </tr>
                                     </thead>
@@ -45,8 +46,11 @@
                                                         <xsl:attribute name="href">                                                
                                                             <xsl:value-of select="replace(tokenize($full_path, '/')[last()], '.xml', '.html')"/>
                                                         </xsl:attribute>
-                                                        <xsl:value-of select=".//tei:title[@type='main'][1]/text()"/>
+                                                        <xsl:value-of select=".//tei:titleStmt/tei:title[1]/text()"/>
                                                     </a>
+                                                </td>
+                                                <td>
+                                                    <xsl:value-of select=".//@when[1]"/>
                                                 </td>
                                                 <td>
                                                     <xsl:value-of select="tokenize($full_path, '/')[last()]"/>

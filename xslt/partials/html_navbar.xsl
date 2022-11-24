@@ -27,7 +27,7 @@
                                     </li>
                                 </ul>                                
                             </li>
-                            <li class="nav-item dropdown">
+                            <!--<li class="nav-item dropdown">
                                 <a title="Indexes" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Register <span class="caret"></span></a>
                                 <ul class=" dropdown-menu" role="menu">
                                     <li class="nav-item dropdown-submenu">
@@ -44,7 +44,7 @@
                                         <a title="GND-BEACON" href="beacon.txt" class="nav-link">GND-BEACON</a>
                                     </li>
                                 </ul>                                
-                            </li>                            
+                            </li>-->                            
                             <li class="nav-item"><a title="Editionseinheiten" href="toc.html" class="nav-link">Editionseinheiten</a></li>
                         </ul>                        
                         <form class="form-inline my-2 my-lg-0 navbar-search-form" method="get" action="search.html" role="search">
