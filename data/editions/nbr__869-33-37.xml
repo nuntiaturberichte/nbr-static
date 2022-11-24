@@ -1,0 +1,85 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at.at/nbr-pius-xi" xml:id="nbr__869-33-37.xml" prev="https://id.acdh.oeaw.ac.at.at/nbr-pius-xi/nbr__869-33-36.xml" next="https://id.acdh.oeaw.ac.at.at/nbr-pius-xi/nbr__869-33-38.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Mgr. Segretario an Johannes Gföllner, Vatikanstadt 06.08.1932</title>
+            <author cert="high">Giuseppe Pizzardo</author>
+            <respStmt>
+               <resp>TEI tempalte prepared by</resp>
+               <persName ref="#daniel.schopper">Daniel Schopper</persName>
+               <persName ref="#stephan.kurz">Stephan Kurz</persName>
+            </respStmt>
+            <respStmt>
+               <resp>edited by</resp>
+               <persName ref="#bernhard.kronegger">Bernhard Kronegger</persName>
+            </respStmt>
+            <respStmt>
+               <resp>kollationieren</resp>
+               <persName ref="#andreas.steingress">Andreas Steingress</persName>
+               <persName ref="#bernhard.kronegger">Bernhard Kronegger</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <!-- To be decided -->
+            <publisher>Publication Information</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc status="draft">
+               <msIdentifier>
+                  <repository>AA.EE.SS., Periodo IV, Austria Ungheria</repository>
+                  <idno type="archive">Pos. 869, Fasc. 33, Fol. 37r+v</idno>
+                  <idno type="institutional" subtype="internal">2293/32</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <note type="keyword" resp="#bernhard.kronegger">Bischofsernennung Wien</note>
+                     <note type="keyword" resp="#bernhard.kronegger">Theodor Innitzer</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <scriptDesc>
+                     <ab>Handschriftlich</ab>
+                  </scriptDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <p>Unter den Kandidaten, die der Heilige Vater für das Erzbistum Wien neben Msgr. Wenzel
+               Grosam in Betracht ziehe, sei Msgr. Theodor Innitzer, Professor für Exegese an der
+               Universität Wien. Um weiter fortzufahren, wolle man jedoch möglichst umfangreiche
+               Informationen zum genannten Kandidaten einholen.</p>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Giuseppe Pizzardo</persName>
+               <date when="1932-08-06">06.08.1932</date>
+               <placeName>Vatikanstadt</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Johannes Gföllner</persName>
+               <placeName>Linz</placeName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text type="Brief">
+      <body>
+         <pb n="1"/>
+         <head><hi rend="underline">Sub secreto S. Offici</hi></head>
+         <p>Tra i candidati sui quali il Santo Padre ha fermata la sua augusta attenzione per la
+            sede arcivescovile di Vienna, oltre l’Ill.mo e Rev.mo Mons. Venceslao Grosam, del quale
+            l’E. V. Rma nella sua pregiata lettera del 6 luglio scorso ha dato ottime referenze, ma
+            che oppone serie ragioni alla sua accettazione, vi è l’Ill.mo e Rev.mo mons. Teodoro
+            Innitzer, Professore di S. Scrittura nella Università di Vienna.</p>
+         <p>Prima, però, di procedere oltre, Sua Santità desidera avere da V. E. sul candidato in
+            parola, le più ampie informazioni, accompagnate <note type="foliation" rend="typewritten">37</note>
+            <pb n="2"/>dal suo apprezzato parere.</p>
+         <closer>
+            <salute>Nel pregarla di ciò, mi è caro approfittare dell’occasione per -</salute>
+         </closer>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,81 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at.at/nbr-pius-xi" xml:id="nbr__869-33-42.xml" prev="https://id.acdh.oeaw.ac.at.at/nbr-pius-xi/nbr__869-33-41.xml" next="https://id.acdh.oeaw.ac.at.at/nbr-pius-xi/nbr__869-33-43.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Augustin Bea an Giuseppe Pizzardo, Pullach bei München 12.08.1932</title>
+            <author>Augustin Bea</author>
+            <respStmt>
+               <resp>TEI tempalte prepared by</resp>
+               <persName ref="#daniel.schopper">Daniel Schopper</persName>
+               <persName ref="#stephan.kurz">Stephan Kurz</persName>
+            </respStmt>
+            <respStmt>
+               <resp>edited by</resp>
+               <persName ref="#bernhard.kronegger">Bernhard Kronegger</persName>
+            </respStmt>
+            <respStmt>
+               <resp>kollationieren</resp>
+               <persName ref="#andreas.steingress">Andreas Steingress</persName>
+               <persName ref="#bernhard.kronegger">Bernhard Kronegger</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <!-- To be decided -->
+            <publisher>Publication Information</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc status="Reinschrift">
+               <msIdentifier>
+                  <repository>AA.EE.SS., Periodo IV, Austria Ungheria</repository>
+                  <idno type="archive">Pos. 869, Fasc. 33, Fol. 42r</idno>
+                  <idno type="institutional" subtype="internal">2385/32</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <note type="keyword" resp="#bernhard.kronegger">Bischofsernennung Wien</note>
+                     <note type="keyword" resp="#bernhard.kronegger">Theodor Innitzer</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <scriptDesc>
+                     <ab>Handschriftlich</ab>
+                  </scriptDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <p>Mit dem beigelegten Brief präsentiert der Autor dem Hl. Vater seine Stellungnahme zu
+               Msgr. Innitzer.</p>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Austin Bea</persName>
+               <date when="1932-08-12"/>
+               <placeName>Pullach bei München</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Giuseppe Pizzardo</persName>
+               <placeName>Vatikanstadt</placeName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text type="Brief">
+      <body>
+         <pb n="1"/>
+         <opener><salute>Eccellenza Reverendissima,</salute></opener>
+         <p>Nella lettera acclusa presento a Sua Santità il mio umile parere sull’Ill.mo e Rev.mo
+            Mons. Innitzer come fui incaricato dall’Ecc.a Va Rev.ma nella venerata lettera del 6
+            Agosto (Num. di Protoc. 2293/32). Prego l’Ecclellenza Va Rev.ma di voler consegnare la
+            lettera a Sua Santità.</p>
+         <closer><salute><lb/>Baciando il sacro anello ho l’onore <lb/>di confermarmi, con riverenti
+               ossequi, <lb/>dell’Eccellenza Vostra Rev.ma dev.mo servitore
+               </salute><signed><lb/>Agostino Bea S.J. <lb/>Preside del Pont. Istituto Bibl.
+            </signed></closer>
+         <note type="foliation" rend="typewritten">42</note>
+      </body>
+   </text>
+</TEI>

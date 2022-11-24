@@ -1,0 +1,860 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at.at/nbr-pius-xi" xml:id="nbr__848-20-71.xml" prev="https://id.acdh.oeaw.ac.at.at/nbr-pius-xi/nbr__848-20-49.xml" next="https://id.acdh.oeaw.ac.at.at/nbr-pius-xi/nbr__848-21-40.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Luigi Faidutti, Kaunas, 06.08.1929</title>
+            <author>
+               <persName>Luigi Faidutti</persName>
+            </author>
+            <respStmt>
+               <resp>TEI tempalte prepared by</resp>
+               <persName ref="#daniel.schopper">Daniel Schopper</persName>
+               <persName ref="#stephan.kurz">Stephan Kurz</persName>
+            </respStmt>
+            <respStmt>
+               <resp>edited by</resp>
+               <persName ref="#bernhard.kronegger">Bernhard Kronegger</persName>
+            </respStmt>
+            <respStmt>
+               <resp>kollationieren</resp>
+               <persName ref="#andreas.steingress">Andreas Steingress</persName>
+               <persName ref="#bernhard.kronegger">Bernhard Kronegger</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <ab/>
+            <!-- To be decided -->
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc status="Reinschrift">
+               <msIdentifier>
+                  <repository>AA.EE.SS, Periodo IV, Austria Ungheria</repository>
+                  <idno type="archive">Pos. 848, Fasc. 20, Fol. 71r+v – 87r+v</idno>
+                  <idno type="institutional" subtype="internal">Beilage 1 zu 1696/29</idno>
+                  <!-- Beilage eigens Festlegen?-->
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <note type="keyword" resp="#bernhard.kronegger">Seelsorge</note>
+                     <note type="keyword" resp="#bernhard.kronegger">Schule</note>
+                     <note type="keyword" resp="#bernhard.kronegger">Soziale Frage</note>
+                     <note type="keyword" resp="#bernhard.kronegger">Sever-Ehe</note>
+                     <note type="keyword" resp="#bernhard.kronegger">Sozialismus</note>
+                     <note type="keyword" resp="#bernhard.kronegger">Austromarxismus</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <scriptDesc>
+                     <ab>Handschriftlich</ab>
+                  </scriptDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote xml:id="LF" scribe="LuigiFaidutti">
+               <p>Hand des Autors, Lugi Faidutti</p>
+            </handNote>
+            <handNote xml:id="UR" scribe="UnknownReader">
+               <p>Hand eines unbekannten Rezipienten der bestimmte Passagen markiert hat</p>
+            </handNote>
+         </handNotes>
+         <abstract>
+            <p>Der Autor gibt einen Bericht über die aus seiner Sicht triste Lage in Wien, welche
+               eine verstärkte Seelsorge und eine Expansion des katholischen Schulwesens
+               erforderlich mache. Des Weiteren müsse man sich der Arbeiterschaft zuwenden, um der
+               Dominanz der Austromarxisten entgegenzuwirken. Die Situation könne verbessert werden,
+               wenn vermehrt auf die Stimmen der Bischöfe unter der Leitung von Kardinal Piffl
+               gehört werden würde. Der Autor attestiert einen Mangel an Kirchen und Seelsorgern, wie
+               bereits aus einer Untersuchung unter dem Titel „Die Winterseelsorgenot“ eines „Mgr.
+               Giacomo Fried“ bekannt sei. Der Mangel an einheimischen Priestern könnte durch die
+               Entsendung ausländischer Priester behoben werden. Als Bedrohung beschreibt der Autor
+               die geringe Zahl an kirchlichen Schulen. Ihr Anteil läge in Wien nur bei 12%, während es sich
+               beim Rest um sozialistische Schulen handle, bei denen der Großteil der Direktoren
+               Sozialisten oder Freimaurer seien. Der Erfolg dieser Schulen sei darauf begründet,
+               dass sie durch die Finanzierung seitens der Sozialdemokratischen Partei kein Schulgeld verlangen müssten.
+               In Folge fehlender religiöser Erziehung gingen die frommen Praktiken unter
+               Jugendlichen zurück, stattdessen widme die Jugend sich verschiedenen Sportarten. Die
+               Sozialisten würden danach trachten nun auch noch die Höheren Schulen und
+               Universitäten zu erobern. Es sei daher geboten, eine Hochschule für die Ausbildung
+               guter katholischer Lehrer einzurichten.</p>
+            <p>Er beschreibt dann die vielen Methoden, mit denen die Feinde der Kirche dem Glauben
+               zusetzten, wobei er besonders auf die sogenannte „Sever-Ehe“ eingeht. Im Vergleich
+               zur weiten Verbreitung von Gewerkschaften hätten die Katholiken nur einen geringen
+               Organisationsgrad. Besonders die Mitgliederzahlen des Katholischen Frauenbundes
+               ließen viel zu wünschen übrig. Auch die sozialistische Organisation „Kinderfreunde“
+               habe sich weit verbreitet, während es der katholischen Gegenorganisation „Frohe
+               Kindheit“ noch nicht gelungen sei aufzuschließen.</p>
+            <p>Der Autor weist dann darauf hin, dass seine Beobachtungen aufgrund zeitlicher
+               Beschränkungen nicht auf eine ausführliche Studie der Situation, sondern vielmehr auf den
+               Berichten einiger Kenner der Lage beruhen, die er im Folgenden vorstellt:</p>
+            <list>
+               <item>a) Der apostolische Nuntius Msgr. Enrico <sic>Silva</sic>: Der Nuntius zeige Vertrauen in
+                  die Situation und teile die Befürchtungen der Pessimisten nicht. Er erwarte
+                  Verbesserungen in der Gesetzgebung und der Sicherheitslage durch die Arbeit der
+                  Heimwehr. Die extremen Sozialisten seien nicht die Masse der Leute, sondern nur
+                  vereinzelte Individuen. Er glaube, dass eine kommende Dreierallianz zwischen
+                  Italien, Ungarn und Österreich die wirtschaftliche Lage verbessern werde. Seiner
+                  Einschätzung nach würden die katholischen Organisationen florieren und das
+                  Episkopat um Piffl sowie die Priester des Landes wären bis auf wenige Ausnahmen
+                  vorbildlich in ihrer Arbeit. Die Zahlen der Kirchenaustritte beunruhigten ihn
+                  nicht, es gebe jedoch einen Bedarf an zusätzlichen Kirchen und Schulen.</item>
+               <item>b) Kardinal Erzbischof Piffl: Laut ihm haben sowohl Pessimisten als auch
+                  Optimisten gute Gründe für ihre Einschätzung der Lage. Die Seelsorge, die Schulen
+                  und die Jugend seien die Bereiche, wo man am meisten Unterstützung brauche. Das
+                  religiöse Gefühl würde wieder erwachen und es gebe einen Anstieg in der Zahl der
+                  Kleriker, jedoch würde auch die Kirchenaustrittspropaganda ihre Opfer finden. Die
+                  Sever-Ehen hätten ernste Auswirkungen und würden vor allem die religiösen Gefühle
+                  des Präsidenten der Republik belasten. Der Kardinal lobte denn Eifer seiner
+                  Priester und Laien im Kampf gegen die Übel, welche die Nachkriegssituation
+                  heraufbeschworen habe.</item>
+               <item>c) Weihbischof Msgr. Kamprath: Er äußerte sich in selber Weise wie Kardinal
+                  Piffl.</item>
+               <item>d) Präsident Wilhelm Miklas: Er besprach vor allem politische und wirtschaftliche
+                  Probleme. Er sei über die Sever-Ehen besorgt, weil diese nolens-volens im Namen
+                  des Präsidenten der Republik ausgesprochen würden. Dies würde ihn in schwere
+                  Gewissenskonflikte bringen.</item>
+               <item>e) Mgsr. Ignaz Seipel: Was die wirtschaftliche Lage Österreichs betreffe, habe
+                  er sich optimistisch gezeigt. Er teile aber die Einschätzung, dass die religiöse
+                  Situation sehr schwerwiegend sei. Für die Seelsorge habe er empfohlen, den Mangel
+                  an Säkularklerus mit Ordenspriestern zu beheben. Er habe dann auch über die neuen
+                  Grenzen der österreichischen Diözesen gesprochen.</item>
+               <item>f) Der Provinzial der Dominikaner: Er sei weniger pessimistisch als andere,
+                  nehme aber dennoch die vorhandenen Gefahren wahr. Er habe kein großes Vertrauen in
+                  die Regierung, vor allem sei er besorgt wegen der geheimen Absprachen innerhalb
+                  der aktuellen parlamentarischen Koalition. Auch er vertrete die Meinung, dass man
+                  mehr Kirchen und Schulen benötige.</item>
+               <item>g) Der Provinzial der Jesuiten: Er zeichne ein düsteres Bild der gegenwärtigen
+                  Situation. Er zeigt sich besonders besorgt über die Aktivitäten der Sozialisten in
+                  Wien. Der Schulbetrieb lehre die Kinder die Verachtung von Religion und Priestern.
+                  Man dürfe sich keine Illusionen darüber machen, dass man sich nun im Kulturkampf
+                  befinde. Auch die Situation der Seelsorge sei trist, viele Katholiken würden die
+                  Sonntagspflicht nicht mehr wahrnehmen. Er spricht sich dafür aus, die katholischen
+                  Organisation zu dezentralisieren, um ihnen die Organisation ihrer Aktivitäten zu
+                  erleichtern.</item>
+               <item>h) Msgr. Giacomo Fried (Präsident des Volksbunds): Er vertritt auch die
+                  Meinung, dass die Sozialisten eine ernste Bedrohung darstellen, glaubt aber nicht,
+                  dass eine Katastrophe bevorstünde. In Wien fänden die sozialistischen
+                  Organisationen einen Verbündeten in der anti-katholischen Presse, die sich vor
+                  allem in Hand der Juden befinde.</item>
+               <item>i) P. Giese S.V.D (Gymnasialdirektor im XVIII. Wiener Gemeindebezirk): Er sprach
+                  vor allem über die Gefahr, die von den sozialistischen Schulen und den
+                  Kirchenaustritten ausging. Er betonte die Unabdingbarkeit einer soliden religiösen
+                  Erziehung innerhalb und außerhalb der Schulen.</item>
+               <item>j) P. Andlau S.J. (Oberer der Jesuitenkirche am Hof): Er vertrat einen sehr pessimistischen
+                  Ausblick für die Kirchen in Österreich und speziell für Wien. Die Kirchenaustritte
+                  seien zu zahlreich und der katholische Klerus wie auch die katholischen
+                  Organisationen zu wenige.</item>
+               <item>k) P. Koch S.V.P.: Er zeigte sich erfreut über die Arbeit der Katholiken unter
+                  Anleitung ihrer Bischöfe. Er war besorgt über die Probleme in der Seelsorge und die
+                  Gefahr durch die bolschewistischen Methoden der Feinde der Kirche.</item>
+               <item>l) Max Wladimir von Beck: Er habe mit ihm über die Situation in Wien und
+                  Österreich gesprochen und besonders auch über Wege, die Frage nach den Ehedispensen
+                  zu klären.</item>
+               <item>m) Dr. Friedrich Funder (Herausgeber der Reichspost): Er setze sich regelmäßig
+                  mit dem Austro-Marxismus auseinander und weise auf dessen Intentionen und
+                  Schädlichkeit hin. Er erhoffe sich viel vom religiösen Aufbruch. Er sei ein
+                  überzeugter Anhänger Seipels und glaube, dass dieser wieder an die Macht
+                  zurückkehren werde. Gegenüber der Idee eines Anschlusses an Deutschland habe er
+                  sich ablehnend gezeigt.</item>
+               <item>n) P. Zyrill Fischer O.F.M.: Er habe sich mit ihm vor allem über die
+                  Jugendarbeit unterhalten. P. Zyrill verfüge über intime Kenntnis der
+                  sozialistischen Methoden. Er habe ihm auch die Methoden der sozialistischen
+                  kirchenfeindlichen Literatur erläutert.</item>
+            </list>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Luigi Faidutti</persName>
+               <date when="1928-08-06">06.08.1928</date>
+               <placeName>Kaunas</placeName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text type="Bericht">
+      <body>
+         <opener>
+            <pb n="1"/><seg type="subjectLine">Mali e rimedi in un esame della situazione di
+               Vienna</seg>
+         </opener>
+         <div type="introduction">
+            <head>Introduzione</head>
+            <p>L’esame che mi fu dato di fare lo scorso giugno sulle condizioni di Vienna, mi ha
+               persuaso della necessità di provvedere 1/ ad irrobustire la cura d’anime sia con
+               nuove stazioni di culto e sia coll’aumento progressivo di adatto personale
+               ecclesiastico, e 2/ a far crescere di numero e di efficacia le scuole cattoliche.</p>
+            <p>La propaganda antireligiosa e la scuola laica atteizzante non potranno più
+               vigorosamente essere combattute, che colla dilatazione del regno della grazia e della
+               verità fra quel popolo, che per sentimento e per tradizione non cessa di essere
+               credente nell’anima.</p>
+            <p>Anzitutto <hi rend="underline" hand="#LF">adunque</hi> la chiesa e la scuola. E poi
+               l’officina, per lo più ancora dominio del terrore degli Austromarxisti, la famiglia,
+               insidiata nei suoi cardini, e la cara gioventù, che si <hi rend="mark" hand="#UR">vuole strappare ad ogni costo, <hi rend="underline" hand="#UR">e fino dai più
+                     teneri anni</hi>, alla Chiesa ed alla famiglia.</hi></p>
+            <p>Condizioni tristi, ma sanabili, se la voce dei Vescovi, con a capo l’Em.o Cardinale
+               Arcivescovo Piffl, sarà meglio ascoltata, ed i cattolici di buon volere si
+               persuaderanno che uno dei principali coefficienti della loro salvezza<note type="foliation" rend="typewritten">71</note>
+               <pb n="2"/>è la cura di spazzar via un certo senso di comodità e bonarietà, non di
+               rado alleato del nemico che non dorme.</p>
+            <p>Le condizioni di Vienna sono state descritte <hi rend="mark" hand="#UR">nel tempo
+                  recente, <hi rend="underline" hand="#UR">e per lo più a colori foschi</hi> , anche
+                  nella stampa estera; <hi rend="underline" hand="#UR">ma indipendentemente da
+                     questa</hi>, <hi rend="underline" hand="#UR">e spoglio d’ogni
+                  preconcetto</hi></hi>
+               <hi rend="underline" hand="#UR">pessimistico od</hi> ottimistico , nell’esposizione
+               che segue reco le testimonianze di alcune persone autorevoli, che vi potei
+               avvicinare, dissenzienti talvolta su questo o quel dettaglio, ma per lo più unanimi
+               nel giudicare la situazione seria e grave.</p>
+         </div>
+         <div type="chapter" n="I">
+            <head>Più chiese e più curati d’anime.</head>
+            <p>L’urgenza del bisogno di provvedere ad una più vasta e più intensa <hi rend="underline" hand="#LF">cura d’anime</hi>, specialmente nei nuovi rioni di
+               Vienna, è nella persuasione di tutti. A parte le miserie spirituali e morali proprie
+               alle grandi città, a Vienna – il pauperismo esteso anche alle classi una volta
+               agiate, i progressi del<hi rend="mark" hand="#UR">l’indifferentismo religioso nelle
+                  masse, <hi rend="underline" hand="#UR">e</hi>sempi di vita addirittura <hi rend="underline" hand="#UR">pagana, lo</hi>
+                  <hi rend="underline" hand="#UR">stesso carattere facile agli adagiamenti</hi>
+                  <hi rend="underline" hand="#UR">– non possono non favorire gli sforzi di
+                  scri</hi></hi><hi rend="underline" hand="#UR">stianizzazione</hi>. A combatterne
+               gli effetti nulla di più efficace della Dottrina cristiana, della grazia attraverso i
+               suoi canali, le sacre <pb n="3"/>funzioni, il contatto col sacerdote, la famiglia dei
+               fedeli, che nel sacro tempio e all’ombra dello stesso si educa alla vita spirituale,
+               nell’imitazione e nell’esercizio delle virtù cristiane. Ma i <hi rend="underline" hand="#LF">sacri templi</hi> difettano, e difetta il clero!</p>
+            <p>L’argomento è da tempo che si studia con cura da apposita commissione. Esso è bene
+               illustrato nel recente esame “Die Wienerseelsorgenot” di Mgr. Giacomo Fried. Per un
+               complesso di 1,500,000 cattolici, a Vienna si hanno solo 77. parrocchie, quasi tutte
+               assai numerose – fino ad 80 mila anime, con circa 1000 sacerdoti, occupati inoltre
+               nelle cancellerie, nelle scuole, negli ospedali, nelle associazioni ecc. Il tema è
+               stato esaurientemente trattato dal V congresso cattolico diocesano (14-16 giugno
+               p.p.), e nell’analoga risoluzione è stato fatto obbligo a tutti di cooperare
+               solleciti colla preghiera, coll’obolo e coll’azione a riempire questo vuoto sotto
+               l’illuminata guida del venerato Pastore diocesano.</p>
+            <p>Alla <hi rend="underline" hand="#LF">mancanza di clero</hi> vanno supplendo gli
+               istituti diocesani e l’opera delle vocazioni ecclesiastiche di S. Pietro Canisio. Ma
+               frattanto urgerebbe provvedere col personale esistente, con quelli del clero che
+               vivono senza un ufficio, quando, se degni, sarebbero ancora in grado di servire, con
+               catechisti non ancora addetti anche alla cura d’anime, con l’assunzione di religiosi,
+               (e a Vienna ve ne sono molti), ma con compiti <note type="foliation" rend="typewritten">72</note>
+               <pb n="4"/>bene determinati, per evitare equivoci e conflitti. In mancanza di
+               sacerdoti indigeni si dovrebbe tentare l’aggregazione di esteri, certo colle cautele
+               che si impongono.</p>
+            <p>Ed anche quanto ad aiuti materiali sarà necessario di rivolgersi alla generosità
+               dell’Estero, come avviene non rare volte, e con buoni frutti, per imprese e sanamenti
+               anche di altra indole.</p>
+         </div>
+         <div type="chapter" n="II">
+            <head>Si migliorino le scuole e se ne aumenti il numero.</head>
+            <p>Dopo la chiesa, <hi rend="underline" hand="#LF">la scuola</hi>. A Vienna le scuole
+               cattoliche sono frequentate non più che dal 12% degli scolari. Il grande resto lo
+               hanno le scuole socialiste. Così l’80% dei direttori scolastici sono socialisti o
+               massoni. La frequenza alle scuole socialiste è facilitata di molto dalla gratuità
+               della tassa scolastica (12 Schilling mensili nelle scuole primarie e 22 nelle medie),
+                  <hi rend="underline" hand="#UR">cui provvede il fondo del partito</hi>. La
+               statistica ne mostra una fioritura in tutti i rioni.</p>
+            <p>In Austria esiste ancora l’obbligo dell’Istruzione religiosa, con catechisti
+               rimunerati dal comune. Però il numero di questi va sensibilmente diminuendo; dove è
+               possibile li suppliscono cooperatori e religiosi, od altrimenti anche maestri laici,
+               circa 500. Ma <lb n="5"/>vi sono delle classi anche senza la così detta ora di
+               religione.</p>
+            <p>Dato l’ambiente, è facile immaginare il complesso di difficoltà, che vi incontra il
+               sacerdote, ed il cumulo di pericoli, che vi corre la gioventù. Basterebbe consultare
+               la cronaca quotidiana. Oltre l’esempio irriverente, la dottrina blasfema. La
+               frequenza alle pratiche religiose, ancora d’obbligo per i cattolici, si <hi rend="mark" hand="#UR">va affievolendo. <hi rend="underline" hand="#UR">È lo sport
+                     dalle più svariate</hi>
+                  <hi rend="underline" hand="#UR">forme che la assorbe</hi>. Aumenta il numero
+                  degli</hi> allievi senza confessione, frutto della propaganda atea.</p>
+            <p>I socialisti aspirano anche alla conquista degli istituti scolastici superiori e
+               della stessa Alma Mater, frequentata ora da <hi rend="mark" hand="#UR">ben 12,000
+                  studenti, <hi rend="underline" hand="#UR">dei quali circa 5000</hi>
+                  <hi rend="underline" hand="#UR">inscritti alla facoltà filosofica <add place="above" hand="LF">più presa di mira.</add>Aperto questo</hi>
+                  <hi rend="underline" hand="#UR">Ateneo, più di quello che non lo sia già
+                     oggi,</hi>
+                  <hi rend="underline" hand="#UR">a tutti i più disparati elementi, vi si
+                     avreb</hi><hi rend="underline" hand="#UR">be la più deplorevole
+                     balcanizzazione.</hi></hi></p>
+            <p>Frequenti sono stati i richiami e gli ammonimenti dell’Autorità Ecclesiastica sui
+               doveri dei cattolici circa la scuola. Ma v’ha ancora dell’apatia e
+               dell’incomprensione, e l’avversario ne abusa, ben si sa, per i suoi malevoli
+               scopi.</p>
+            <p><hi rend="mark" hand="#UR"><hi rend="underline" hand="#UR">Si devono far voti che non
+                     tardi più oltre</hi>
+                  <hi rend="underline" hand="#UR">la realizzazione del progetto d’un istituto</hi>
+                  <hi rend="underline" hand="#UR">superiore per la formazione di buoni
+                     maestri,</hi><note type="foliation" rend="typewritten">73</note>
+                  <pb n="6"/><hi rend="underline" hand="#UR">che dovranno fungere da direttori ed
+                     ispetto</hi><hi rend="underline" hand="#UR">ri scolastici, istituto che
+                     verrebbe affida</hi><hi rend="underline" hand="#UR">to alla Lega dei maestri
+                     cattolici in</hi>
+                  <hi rend="underline" hand="#UR">Austria.</hi></hi></p>
+         </div>
+         <div type="chapter" n="III">
+            <head>Sugli altri campi: famiglia officina, associazioni giovanili.</head>
+            <p>Coi due capisaldi: chiesa e scuola - nell’opera di rinnovazione va strettamente
+               congiunta la cura della <hi rend="underline" hand="#LF">famiglia</hi>, dell’<hi rend="underline" hand="#LF">of</hi><hi rend="underline" hand="#LF">ficina</hi> e
+               delle <hi rend="underline" hand="#LF">organizzazioni giovanili</hi>, campi dove pure
+               si mantiene viva la gara fra cattolici ed avversari dalle varie provenienze, ma
+               formanti un unico fronte contro i primi, d’onde sopratutto l’inferiorità dei
+               cattolici e lo stentato progresso della loro attività.</p>
+            <p>La lotta è caratterizzata anche qui dallo spirito di scristianizzazione, specialmente
+               colla <hi rend="underline" hand="#LF">propaganda per l’apo</hi><hi rend="underline" hand="#LF">stasia</hi>, che si svolge nel suo pieno vigore nel dopoguerra. In
+               dieci anni le statistiche danno 153,187 casi di apostasia solo a Vienna; né ancora
+               contenti, dicono di voler intensificare nel prossimo autunno questo lavoro di
+               “emancipazione“, e stanno per fondare all’uopo una scuola di propa<pb n="7" break="no" type="sh"/><hi rend="mark" hand="#UR">gandisti coscienti, <hi rend="underline" hand="#UR">reclutandone gli allie</hi><hi rend="underline" hand="#UR">vi fra i migliori ferrovieri.</hi>
+                  <hi rend="underline" hand="#UR">Da parte catto</hi><hi rend="underline" hand="#UR">lica si sta studiando un memoriale</hi>. I</hi>vescovi hanno già più volte e
+               con tutta insistenza alzata la loro voce contro l’opera deleteria, che non è una
+               specialità <sic>austrica</sic>, ma movimento diffuso in quasi tutti gli stati.</p>
+            <p>Non si perdona a mezzi: cattedra, scuola, piazza, congressi, feste, fogli volanti,
+               giornali, riviste ed anche atti di vero terrore: alle porte delle chiese impedito
+               l’ingresso agli operai, le donne minacciate di sloggio, di licenziamento e d’altre
+               sanzioni se praticanti la chiesa, fanciulli che si tengono lontani dalla s.
+               Comunione. Ed in tutto ciò un metodo di spionaggio il più raffinato.</p>
+            <p>La famosa legge “Sever” sulle <hi rend="underline" hand="#LF">dispense</hi>
+               <hi rend="underline" hand="#LF">matrimoniali</hi> è essa pure una grave piaga, che
+               miete le sue vittime, già <hi rend="mark" hand="#UR">più che 50,000 casi, <hi rend="underline" hand="#UR">e se ne abusa aperta</hi><hi rend="underline" hand="#UR">mente facendo dipendere la concessio</hi><hi rend="underline" hand="#UR">ne della dispensa dall’abbandono della</hi>
+                  <hi rend="underline" hand="#UR">chiesa cattolica, da doversi provare con</hi>
+                  <hi rend="underline" hand="#UR">un atto ufficiale da esibirsi all’uffi</hi><hi rend="underline" hand="#UR">cio magistratuale.</hi> In appendice a que</hi>sto
+               mio esame potrò ritornare su questo argomento di vitale import<unclear reason="stamp" cert="high">anza.</unclear></p>
+            <p>Nel primo tempo si voleva aser<unclear reason="stamp" cert="high">ire</unclear><note type="foliation" rend="typewritten">74</note>
+               <pb n="8"/>alla presenza di Mons. Seipel al potere questo movimento, ed era schifosa
+               la gazzarra che si faceva intorno al nome di questo eminente politico. Ma ora che
+               Seipel ha abbandonato il posto di Cancelliere della Repubblica, i socialisti vanno
+               inventando nuovi pretesti: il fascismo – “i patteggiamenti del Vaticano col fascismo”
+               – le formazioni volontarie d’una milizia inofficiale (Heimwehr) di cui sembrano aver
+               paura – la polizia con i suoi capi – e poi di nuovo Seipel, che è ancor sempre alla
+               testa dei cristiani sociali, e che accusano di soverchia combattività
+               (Glaubenstreiter).</p>
+            <p>Ai numerosi e floridi <hi rend="underline" hand="#LF">sindacati operai</hi> con circa
+               un <sic>millione</sic> di affiliati, la rocca forte dei socialisti, i cattolici si
+               studiano di opporre le loro organizzazioni operaie, nelle quali l’ultimo tempo ha
+               portato un rilevante progresso, ma <add place="above" hand="#LF">sono</add> ancora
+               sempre lontane dal poter rivaleggiare colle prime, forti di mezzi e di disciplina. I
+               sindacati cattolici contavano alla fine del 1928 soci 100,087 un consolante aumento
+               di fronte ai 30,725 del 1919. Invece le statistiche delle associazioni cattoliche
+               femminili lasciano ben più a desiderare, e la federazione diocesana, che abbraccia
+               circa 15,000 socie, ne conta solo circa 8000 fra i 14 e 18 anni. Fatto che dà <pb n="9"/>seriamente a pensare, come osserva una articolista nella “Reichspost” del
+               23 giugno p.p.: “Die seelische Not unserer <sic>weiblicher</sic> Jugend”.</p>
+            <p>Più gravi di quelli della scuola sono i pericoli fuori di queste pareti, ed è una
+               vera strage di innocenti che si va preparando.</p>
+            <p>L’organizzazione “<hi rend="underline" hand="#LF">Kinderfreunde</hi>”, fondata dai
+               socialisti 20 anni fa, s’è rapidamente estesa anche alla Germania e alla
+               Cecoslovacchia. Essa va copiando i metodi di Mosca, d’onde pare riceva anche sussidi,
+               e col nome specioso di “amici dei fanciulli” si fa<del rend="strikethrough">nno</del>
+               strada in tutte le classi sociali. Con quali effetti? È facile immaginare. E per
+               accennare qui ad uno solo, secondo una statistica a Vienna sono circa mille fanciulli
+               non battezzati, sebbene di genitori cattolici, e dai 400 ai 500 nelle provincie.</p>
+            <p>I cattolici hanno opposto la loro organizzazione, la “<hi rend="underline" hand="#LF">Frohe Kindheit</hi>”, la quale conta frattanto 100 gruppi a Vienna con l’Austria
+               Inferiore ed altrettanti nelle altre provincie, con un contingente di circa 10,000
+               fanciulli. Anche qui il confronto coll’organizzazione socialista ci fa constatare una
+               grande inferiorità quan<hi rend="mark" hand="#UR">to a numero e quanto a mezzi. <hi rend="underline" hand="#UR">Nullame</hi><hi rend="underline" hand="#UR">no i
+                     rapidi progressi dispongono male</hi></hi>
+               <pb n="10"/><hi rend="mark" hand="#UR"><hi rend="underline" hand="#UR">i fautori d<subst>
+                        <add>egli</add>
+                        <del>alla</del>
+                     </subst> “Amici dei Fanciulli”, che co</hi><hi rend="underline" hand="#UR">minciano a combattere la ”Giovinezza al</hi><hi rend="underline" hand="#UR">legra” anche apertamente, perché sono</hi>
+                  <hi rend="underline" hand="#UR">degli stessi genitori socialisti che vi</hi>
+                  <hi rend="underline" hand="#UR">mandano i loro figli sapendoli meglio</hi>
+                  <hi rend="underline" hand="#UR">affidati. Ragione per cui nulla dovrebbe</hi>
+                  <hi rend="underline" hand="#UR">trattenere i cattolici dal
+               sostenerla.</hi></hi></p>
+            <p>Più sotto avrò occasione di portare sull’argomento alcune testimonianze del P.
+               Cirillo Fischer, che s’è specializzato nello studio di queste organizzazioni.</p>
+         </div>
+         <div type="chapter" n="IV">
+            <head>Informazioni di singoli, che confermano la situazione come fin quì
+               descritta.</head>
+            <p>Come venni accennando, le mie informazioni, più che su uno studio esauriente della
+               situazione, <hi rend="underline" hand="#LF">resomi</hi> impossibile dalla
+               ristrettezza di tempo, si basa<add place="below" hand="#LF">no</add> prevalentemente
+               sulle affermazioni di parecchi conoscitori dell’ambiente, i quali all’incontrastata
+               competenza uniscono il desiderio sincero che le condizioni migliorino.</p>
+            <p>Ed ecco alcune di queste informazioni redatte con brevità, ma anche con fedeltà
+                  scrupolo<hi rend="mark" hand="#UR">sa, <hi rend="underline" hand="#UR">che lascia
+                     ai singoli il senso di otti</hi><hi rend="underline" hand="#UR">mismo o
+                     pessimismo, che può averli</hi>
+                  <hi rend="underline" hand="#UR">guidati nella previsione del futuro</hi>.</hi></p>
+            <pb n="11"/>
+            <div type="person" n="a.">
+               <head>L’Eccmo Nunzio Apostolico Mons. <persName>Enrico Sibilia</persName></head>
+               <p>Si mostra fiducioso, e dice di non condividere i timori e le preoccupazioni di
+                  tanti pessimisti per partito. Prevede un cambiamento in meglio nella legislazione
+                  dello Stato, e che l’organizzazione militaristica “Heimwehr” saprà fiaccare il
+                  terrore, che qua e <sic>la</sic> vanno eserci<add place="above" hand="#LF">ta</add>ndo socialisti estremisti, che non sono la gran massa del popolo, ma
+                  sono pochi, con po<hi rend="mark" hand="#UR">chi duci, ed <hi rend="underline" hand="#UR">anche questi isola</hi><hi rend="underline" hand="#UR">ti.</hi></hi></p>
+               <p>A migliorare l’indirizzo politico ed economico del paese pare si faccia strada
+                  l’idea d’una triplice, Italia-Ungheria-Austria, e vanno diminuendo anche le
+                  difficoltà di un prestito, opposte dall’Italia.</p>
+               <p><hi rend="mark" hand="#UR"><hi rend="underline" hand="#UR">Le associazioni
+                        cattoliche fioriscono, e <add place="above" hand="#LF">se</add> ne</hi> avrà
+                     una prova nel congresso cattolico diocesano 14-16 giugno.</hi></p>
+               <p>L’Emo Card. Piffl e gli altri Vescovi vigilano e lavorano indefessi, e con essi
+                  circa <hi rend="mark" hand="#UR">1000 sacerdoti, <hi rend="underline" hand="#UR">tutti esemplari, meno forse</hi>
+                     <hi rend="underline" hand="#UR">due o tre.</hi></hi></p>
+               <p>Il Governo e ottimo, e fa quello che può per migliorare le condizioni, e farà
+                  ancora di più, se le circostanze glielo permetteranno.</p>
+               <p>È poi consolante il risveglio religioso <note type="foliation" rend="typewritten">76</note>
+                  <pb n="12"/>così splendidamente dimostratosi nelle SS. Missioni dello scorso
+                  novembre.</p>
+               <p>Alle statistiche sui casi di apostasia non va data soverchia fede, è la scoria che
+                  se ne va, e del resto si notano anche dei ravvedimenti.</p>
+               <p>C’è bisogno di un aumento di chiese e di scuole, lo vanno ripetendo. E si farà
+                  bene di aiutare affidando compiti e mezzi all’Episcopato.</p>
+               <p>Il Rmo P. <persName>Costantino Hohenlohe O.S.B.</persName> frequente alla
+                  Nunziatura, confermava egli pure questi apprezzamenti ottimistici.</p>
+            </div>
+            <div type="person" n="b.">
+               <head>L’Emo Cardinale Arcivescovo <persName>Piffl</persName></head>
+               <p>Mi ricevette molto benevolmente l’8 giugno, reduce da una visita pastorale, e si
+                  mostrò vivamente grato al Santo Padre per le Sue continue solerti premure.</p>
+               <p>Parlando della situazione, disse che pessimisti ed ottimisti hanno delle buone
+                  ragioni di giudicarla, chi molto seria e chi non disperata. La cura d’anime, la
+                  scuola, la gioventù sono quelle che hanno maggior bisogno di aiuto. Il sentimento
+                  religioso si va risvegliando, si nota un debole aumento nel clero, la propaganda
+                  per l’apostasia continua purtroppo a fare le sue vittime, <pb n="13"/><hi rend="mark" hand="#UR"><hi rend="underline" hand="#UR">ma vi hanno anche casi
+                        di resipiscenza,</hi>
+                     <hi rend="underline" hand="#UR">avendo parecchi ceduto all’imperiosità</hi>
+                     <hi rend="underline" hand="#UR">delle circostanze individuali ed alla
+                        furia</hi>
+                     <hi rend="underline" hand="#UR">del terrore</hi> di socialisti e liberi
+                     pensatori.</hi></p>
+               <p>Gli effetti della cosiddetta legge “Sever” sulle dispense matrimoniali sono
+                  purtroppo gra<hi rend="mark" hand="#UR">vi, e fra l’altro, <hi rend="underline" hand="#UR">creano imbarazzo al senso pro</hi><hi rend="underline" hand="#UR">fondamente religioso del Presidente della Repub</hi><hi rend="underline" hand="#UR">blica.</hi></hi></p>
+               <p>Loda lo zelo di sacerdoti e laici nella lotta contro l’imperversare dei mali, a
+                  cui le circostanze del dopoguerra hanno aperto più facile la via. Sono parecchie
+                  proposte che si vanno realizzando, e progetti che si studiano per fronteggiare i
+                  pericoli della situazione, che si vuole migliorare ad ogni costo. Mi indicò delle
+                  persone alle quali rivolgermi per attingere informazioni, <hi rend="mark" hand="#UR">ed ebbe la bontà di promettermi <hi rend="underline" hand="#UR">lui
+                        pure</hi>
+                     <hi rend="underline" hand="#UR">informazioni e dati e delle proposte
+                        con</hi><hi rend="underline" hand="#UR">crete e pratiche per quando sarei di
+                        ritorno</hi>
+                     <hi rend="underline" hand="#UR">a Vienna dopo le vacanze estive</hi>.</hi></p>
+            </div>
+            <div type="person" n="c.">
+               <head>Monsignor <persName>Kamprath</persName>. Vescovo ausiliare di Vienna,</head>
+               <p>si espresse nei sensi dell’Emo Cardinale Piffl, ed a parte, come è nel suo ufficio
+                  di Vicario Generale, dalle fatiche veramente apostoliche dell’Emo Card.
+                  Arcivescovo, au<pb n="14" break="no" type="us"/>gurava a questi ed alla diocesi,
+                  come all’Austria tutta, l’aiuto di Dio, di cui è pegno sicuro la sollecitudine
+                  dell’Augusto Pontefice, per la vittoria del bene sul male, che purtroppo
+                  dilaga.</p>
+            </div>
+            <div type="person" n="d.">
+               <head>Il Presidente della Repubblica signor <persName>Miklas</persName></head>
+               <p>Uomo profondamente religioso, che conosco dall’anteguerra, al Parlamento di
+                  Vienna, mi parlò col cuore sulle labbra. E quando apprese che io <sic>veniva</sic>
+                  da Roma, la sua è stata la più ampia professione di attaccamento e di devozione
+                  alla Santa Sede ed al Santo Padre, da cui disse di molto sperare per la salvezza
+                  dell’Austria cattolica, ora gravemente tribolata, e nell’incaricarmi di umiliare
+                  questi sentimenti a nome suo e del suo Paese, a Sua Santità, ne implorava la Santa
+                  Benedizione.</p>
+               <p>Ribadì poi egli pure la necessità di opporre al pericolo della propaganda febbrile
+                  degli avversari la nostra propaganda – pel risveglio del sentimento religioso
+                  nella famiglia, nella scuola, nella gioventù, dovunque, come non cessa di
+                  praticare e di raccomandare l’Emo Cardinale Arcivescovo.</p>
+               <p>Mi parlò delle enormi difficoltà create alla piccola Austria dai trattati,
+                  difficoltà che crescono causa <pb n="15"/><hi rend="mark" hand="#UR">le lotte
+                     interne, <hi rend="underline" hand="#UR">nonostante gli sforzi per ri</hi><hi rend="underline" hand="#UR">nascere alla vita di lavoro e di
+                     benessere.</hi></hi> Si dolse dell’opposizione dell’Italia al prestito che
+                  l’Austria si proponeva di contrarre coll’America. Oggi l’Italia sembra più
+                  arrendevole, ma frattanto abbiamo il peggioramento del mercato monetario, e
+                  l’opposizione giovò ai socialisti contrari ad ogni successo dei cristianosociali.
+                  Per aiutarsi si dovette ricorrere a prestiti privati, specialmente francesi.</p>
+               <p>Si mostrò assai preoccupato della piaga del<hi rend="mark" hand="#UR">le dispense
+                     matrimoniali <hi rend="underline" hand="#UR">da parte di ma</hi><hi rend="underline" hand="#UR">gistrati al Comune e alla Provincia perché,</hi>
+                     <hi rend="underline" hand="#UR">volens nolens, è nel nome del Capo dello</hi>
+                     <hi rend="underline" hand="#UR">Stato che si amministra, dispensa e
+                        giudica.</hi></hi> La pratica, che è una contravvenzione delle leggi
+                  canoniche, e sa abilmente scansare le stesse disposizioni del codice civile
+                  austriaco, trattata in nome della Repubbli<hi rend="mark" hand="UR">ca, <hi rend="underline" hand="#UR">non può non supporre una connivenza,</hi>
+                     <hi rend="underline" hand="#UR">per quanto apparentemente estranea al</hi><hi rend="underline" hand="#UR">l’atto, e dovrebbe importare l’esclusione</hi>
+                     <hi rend="underline" hand="#UR">di un cattolico dall’ufficio di Presidente e
+                        di</hi>
+                     <hi rend="underline" hand="#UR">Cancelliere. Quindi un conflitto di
+                        coscienza,</hi>
+                     <hi rend="underline" hand="#UR">che lo dispensa a chiedere già più volte
+                        consiglio</hi>
+                     <hi rend="underline" hand="#UR">all’ecclesiastica Autorità.</hi></hi></p>
+               <p>Accenna inoltre alla Coalizione al Parlamen<hi rend="mark" hand="#UR">to
+                     nazionale, una necessità, <hi rend="underline" hand="#UR">secondo alcuni</hi>
+                     <hi rend="underline" hand="#UR">ad vitanda male majora, ed
+                     all’esistenza</hi></hi><note type="foliation" rend="typewritten">78</note>
+                  <pb n="16"/><hi rend="mark" hand="#UR">di patti secreti fra i partiti coalizzati,
+                     un vero sacrifizio pel cattolico, quando lo deve portare solo per far camminare
+                     la macchina parlamentare nella via dell’ordinaria amministrazione, coll’obbligo
+                     dell’esclusione di questioni concernenti l’orientamento religioso, se anche di
+                     tutta attualità.</hi></p>
+               <p>Anche il Signor Presidente Miklas, come Sua Eminenza l’Arcivescovo Piffl, si
+                  proponeva di trasmettermi un breve promemoria di argomenti che più gli
+                  premerebbero.</p>
+            </div>
+            <div type="person" n="e.">
+               <head>Mons. <persName>Ignazio Seipel</persName>,</head>
+               <p>antica conoscenza egli pure, mi ricevette con molta bontà il 12 aprile, reduce dal
+                  suo viaggio in Oriente.</p>
+               <p><hi rend="mark" hand="#UR"><hi rend="underline" hand="#UR">Si parlò a lungo di
+                        quanto poteva interes</hi><hi rend="underline" hand="#UR">sare, del suo
+                        ritiro dall’ufficio di Cancel</hi><hi rend="underline" hand="#UR">liere
+                        della Repubblica, delle condizioni</hi>
+                     <hi rend="underline" hand="#UR">politiche, economiche e religiose del
+                        Pae</hi><hi rend="underline" hand="#UR">se</hi>, della Coalizione
+                     parlamentare ecc. Si</hi> mostrò fiducioso del futuro, se l’Austria potrà
+                  consolidarsi, usando anzitutto delle proprie risorse ed energie.</p>
+               <p>Mons. Seipel condivide lui pure la persuasione circa la gravità della situazione
+                  religiosa di fronte all’attività intensa e perti<pb n="17" break="no" type="us"/>nace dei socialisti, ma non crede che questi potranno arrivare al punto di
+                     scristianiz<hi rend="mark" hand="#UR">zazione e di dominio, <hi rend="underline" hand="#UR">al quale agognano</hi>
+                     <hi rend="underline" hand="#UR">e men che meno nelle provincie della Re</hi><hi rend="underline" hand="#UR">pubblica</hi>. C’è di fronte, grazie a Dio,
+                     la</hi> vigilanza dei Vescovi, e soprattutto di S. Em. l’Arcivescovo, e c’è di
+                  fronte lo zelo dei cattolici militanti, meritevoli di incoraggiamento e di
+                     <sic>ajuto</sic>. “Ci è di grande conforto, soggiunge, il mai cessato
+                  interessamento del Santo Padre alle nostre sorti, ed oggi potrebbe giovare assai
+                  un Suo augusto paterno incoraggiamento a proseguire per la via positiva del lavoro
+                  di ri staurazione e di tutela degli interessi cattolici nella nostra Patria”.</p>
+               <p><hi rend="mark" hand="#UR"><hi rend="underline" hand="#UR">Mons. Seipel propende
+                        per l’irrobustimento</hi>
+                     <hi rend="underline" hand="#UR">delle opere esistenti, e non sembra che
+                        ap</hi><hi rend="underline" hand="#UR">provi molte delle
+                           iniziative<sic>-</sic>private, sug</hi><hi rend="underline" hand="#UR">gerite anche da lodevoli propositi, ma non</hi>
+                     <hi rend="underline" hand="#UR">sempre di tutta praticità.</hi></hi></p>
+               <p>Quanto a cura d’anime, alla mancanza di sacerdoti secolari si dovrebbe supplire
+                  con regolari dei vari Ordini e Congregazioni, da scegliersi fra i migliori, perché
+                  non ne scapiti la vita religiosa.</p>
+               <p>Mons. Seipel toccò pure il problema della <hi rend="mark" hand="#UR" change="struckthrough">circoscrizione delle diocesi, <hi rend="underline" hand="#UR">di un’even</hi><hi rend="underline" hand="#UR">tuale aggregazione
+                        di alcuni decanati te</hi><hi rend="underline" hand="#UR">deschi, ora nella
+                        diocesi di Trento, a quel</hi><hi rend="underline" hand="#UR">la di
+                        Bressanone, e della creazione, secondo</hi></hi>
+                  <pb n="18"/>lui, di due vicariati generali di Feldkirch e di Innsbruck nel nesso
+                  dell’Arcidiocesi di Salisburgo, con una popolazione di rispettivamente di 255,363
+                  cattolici dell’Amministrazione Apostolica di Innsbruck e di 147.837
+                  dell’Amministrazione di Feldkirch. Progetto questo che si opporrebbe all’idea del
+                  Vescovo Mons. Weiz che si esprime per un vescovato a Innsbruck.</p>
+            </div>
+            <div type="person" n="f.">
+               <head>Il Provinciale dei P.P. Domenicani.</head>
+               <p>È meno pessimista di altri, nullameno anche secondo lui il pericolo c’è, e si fa
+                  del meglio per combatterlo, senza però che vi siano forze sufficienti, o che si
+                  abbia un’organizzazione quale il momento richiederebbe. Si confida da molti nella
+                  “Heimwehr”, che forse potrà tenere in scacco i furori dei socialisti superando in
+                  numero le forze armate volontarie di questi, ma fiaccarli potrà solo il nostro
+                  lavoro compatto e multiforme.</p>
+               <p>Non ha gran fiducia nel governo, che cerca di manovrare fra gli scogli, e dove non
+                  è <hi rend="mark" hand="#UR">tutto oro quello che luce. Teme <hi rend="underline" hand="#UR">dei patti se</hi><hi rend="underline" hand="#UR">greti sui quali
+                        sorse e si regge la attua</hi></hi><hi rend="mark" hand="#UR"><hi rend="underline" hand="#UR"><pb n="19" break="no" type="us"/>le coalizione
+                        parlamentare</hi> (cristiano so</hi>ciali, tedeschi radicali e contadini
+                  liberali). Se deve rimanere escluso il movimento culturale secondo il pensiero
+                  cattolico, che è quello della gran maggioranza del popolo austriaco (vedi p.e.
+                  l’università catto<hi rend="mark" hand="#UR">lica di Salisburgo), <hi rend="underline" hand="#UR">e se nessuna iniziativa</hi>
+                     <hi rend="underline" hand="#UR">parlamentare può essere frattanto fatta</hi>
+                     <hi rend="underline" hand="#UR">circa il matrimonio dove c’è del
+                     caos,</hi></hi> che cosa possiamo sperare da questo <hi rend="underline" hand="#UR">are</hi><hi rend="mark" hand="#UR"><hi rend="underline" hand="#UR">namento</hi>?</hi></p>
+               <p>A tener viva e ad educare la coscienza cattolica sono necessarie più chiese e più
+                  scuole, e la salvezza della gioventù va cercata sia nelle classi migliori e sia
+                  nel proletariato.</p>
+            </div>
+            <div type="person" n="g.">
+               <head>Il Provinciale dei P.P. Gesuiti</head>
+               <p>Fa un triste quadro della situazione. Non è da disperare, disse, ma ogni soverchio
+                  ottimismo potrebbe divenire fatale, ed i soccorsi urgono in ogni senso. Gli
+                  risulta con piena cognizione che i socialisti di Vienna hanno una magnifica
+                  organizzazione. Il loro programma è marxismo nel fine, e troppo spesso anche nei
+                  mezzi. Ricevono <sic>ajuti</sic> ed elogi da Mosca.</p>
+               <p>Ora hanno lanciato la parola d’assalto <note type="foliation">80</note>
+                  <pb n="20"/>alle campagne, ma con una tattica meno intransigente, più blanda,
+                  appropriata all’indole delle popolazioni agricole che sono ancora religiose. Hanno
+                  cioè bisogno di un contingente di voti per le prossime elezioni, mancando loro <subst>
+                     <del><gap reason="illegible"/></del>
+                     <add rend="overwritten">solo</add>
+                  </subst>
+                  <subst>
+                     <del><gap reason="illegible"/></del>
+                     <add rend="overwritten">pochi</add>
+                  </subst>
+                  <subst>
+                     <del><gap reason="illegible"/></del>
+                     <add rend="overwritten">seggi</add>
+                  </subst> per avere la maggioranza contro i cristiano sociali.</p>
+               <p>Il terrore ed il denaro sono le loro armi principali. Come vincerli? Si spera
+                  molto nella “Heimwehr”, nella polizia e nell’esercito, <hi rend="mark" hand="#UR"><hi rend="underline" hand="#UR">se sapranno procedere in
+                  armonia.</hi></hi></p>
+               <p>Conferma la miseria delle condizioni scolastiche, che domandano solleciti rimedi.
+                  Si insegna apertamente agli scolari il disprezzo della religione e dei sacri riti,
+                  si va inoculando nei teneri cuori l’odio al prete, ed in alcuni distretti
+                  l’ambiente scolastico è tanto ammorbato, che comincia a repugnare agli stessi
+                  socialisti di mandarvi i loro figli.</p>
+               <p>È inutile farsi illusioni, continua il R.P. <hi rend="mark" hand="#UR">Provinciale, siamo nel Kulturkampf, <hi rend="underline" hand="#UR">per</hi>
+                     <hi rend="underline" hand="#UR">quanto non lo si voglia credere, né la
+                        stam</hi><hi rend="underline" hand="#UR">pa cattolica, talvolta per un fatto
+                        di timore di</hi> provocare o di mettere al nudo tutto le pia<hi rend="underline" hand="#UR">ghe, vi rifletta abbastanza</hi>. E sì che
+                     Vienna</hi> è una piazza importante, e guai se cade nel pieno dominio dei
+                  marxisti!</p>
+               <p>Tristi inoltre le condizioni della cura d’anime. È bene che se ne abbia parlato e
+                  scritto molto <pb n="21"/>nell’ultimo tempo, specialmente dopo le Missioni del
+                  novembre dell’anno scorso, che sebbene vi avessero partecipato solo il 10% dei
+                  cattolici viennesi, hanno dimostrato però all’evidenza la grande mancanza di
+                  luoghi del sacro culto e quindi dell’adempimento del precetto domenicale, del
+                  contatto col <hi rend="mark" hand="#UR">sacerdote ecc. <hi rend="underline" hand="#UR">Non si è camminato di pari pas</hi><hi rend="underline" hand="#UR">so collo sviluppo dell’edilizia nei tempi</hi>
+                     <hi rend="underline" hand="#UR">addietro, e coll’aumento della
+                        popolazio</hi><hi rend="underline" hand="#UR">ne smisuratamente cresciuta
+                        nei nuovi ri</hi><hi rend="underline" hand="#UR">oni. Bisogna cercare di
+                        supplirvi</hi>.</hi></p>
+               <p>Alla miseria di preti si cerca di provvedere <hi rend="mark" hand="#UR">come
+                     meglio si può. <hi rend="underline" hand="#UR">La classe dei catechi</hi><hi rend="underline" hand="#UR">sti potrebbe prestarvisi di più, se più di</hi>
+                     <hi rend="underline" hand="#UR">uno non vi facesse delle difficoltà, forte
+                        del</hi><hi rend="underline" hand="#UR">la sua casta privilegiata.</hi> Non
+                     v’ha dubbio</hi> che nelle chiese dei religiosi l’opera potrebbe essere più
+                  produttiva di frutti spiritua<hi rend="mark" hand="#UR">li, <hi rend="underline" hand="#UR">se si sapesse con qualche precisione fin dove</hi>
+                     <hi rend="underline" hand="#UR">si possa arrivare senza provocare
+                        suscetti</hi><hi rend="underline" hand="#UR">bilità e rivalità</hi>. Si sa
+                     che questo ed altro</hi> è oggetto di studio, e l’Emo Arcivescovo vi dedica
+                  tutte le sue cure.</p>
+               <p>Il risveglio religioso fa sperare bene, ed ora si dovrebbero organizzare un po’
+                  meglio i centri dell’attività esterna, regolando il lavoro in modo che i compiti
+                  subiscano una sana decentralizzazione secondo i vari campi, il Volksbund, l’Azione
+                  Cattolica, ecc.</p>
+               <note type="foliation" rend="typewritten">81</note>
+               <pb n="22"/>
+               <p>Dell’attività politica il R.P. Provinciale non si mostra soddisfatto, e così della
+                  coalizione ed annessi patteggiamenti. Dice di temere per l’esito delle future
+                  elezioni politiche. Vorrebbe che i cattolici comprendessero meglio la serietà e la
+                  gravità del momento.</p>
+            </div>
+            <div type="person" n="h.">
+               <head>Mons. <persName>Giacomo Fried</persName></head>
+               <p>È presidente del benemerito “Volksbund” cattolico dell’Austria. Conviene egli pure
+                  circa la gravità del pericolo socialista, ricco di mezzi e d’audacia, ma è lontano
+                  da previsioni catastrofiche. A patto però che si lavori concordi e disciplinati.
+                  Parlò di parecchie organizzazio<hi rend="underline" hand="#UR">ni, del loro
+                     lavoro</hi> e delle difficoltà - specialmente a Vienna, <hi rend="underline" hand="#UR">dove gli avversari</hi>
+                  <hi rend="underline" hand="#UR">dalle varie tinte sono assai numerosi,</hi>
+                  <hi rend="underline" hand="#UR">e trovano un potente ausiliare nella</hi>
+                  <hi rend="underline" hand="#UR">stampa anticattolica</hi>, per lo più in mano di
+                  ebrei. Disse inoltre della miseria di chiese, problema che si deve cercare di
+                  risolvere con qualche urgenza. Ne tratterebbe ex professo al Congresso cattolico
+                  diocesano, dopo averne scritto, con solerzia e competenza, nell’opuscolo “die
+                  Wienerseelsorgenot”, di cui è stato testè fatto omaggio al Santo Padre.</p>
+            </div>
+            <pb n="23"/>
+            <div type="person" n="i.">
+               <head>Il P. <persName>Giese</persName> S.V.D.</head>
+               <p>è provetto direttore d’una scola magistrale nella Capitale, XVIII distretto, e
+                  profondo conoscitore del problema scolastico.</p>
+               <p>Il numero delle scuole in mano dei socia<hi rend="mark" hand="#UR">listi, il
+                     personale con poche eccezioni, <hi rend="underline" hand="#UR">l’in</hi><hi rend="underline" hand="#UR">dirizzo spirituale e pedagogico fanno
+                     teme</hi></hi><hi rend="underline" hand="#UR">re il peggio</hi>. L’illustra a
+                  base di statisti<hi rend="mark" hand="#UR">che e fatti storici, <hi rend="underline" hand="#UR">che si vanno ripetendo</hi>
+                     <hi rend="underline" hand="#UR">con troppa frequenza</hi>.</hi></p>
+               <p>Il numero delle apostasie aumenta, nell’aprile dell’anno corr. Si ebbero 1200
+                  casi, <hi rend="mark" hand="#UR">nel maggio susseguente 1250. <hi rend="underline" hand="#UR">Si studiano</hi>
+                     <hi rend="underline" hand="#UR">provvedimenti per opporsi a questa strage</hi>
+                     <hi rend="underline" hand="#UR">di tante giovani coscienze, ed è da far
+                        voti</hi>
+                     <hi rend="underline" hand="#UR">che si faccia presto. È periculum in mora,</hi>
+                     <hi rend="underline" hand="#UR">e grave pericolo!</hi></hi></p>
+               <p>Il P. Giese insiste sulla necessità d’una intensa istruzione religiosa nelle
+                  scuole e fuori, e ricorda una lettera, di qualche anno fa, dell’Emo signor
+                  Cardinale Segretario di Stato sullo stesso argomento, opportunissima anche nelle
+                  circostanze di oggi, e fa pure menzione di direttive sulle questioni sociali
+                  “Richtlinien für die sozialen Fragen” dell’Episcopato austriaco, pubblicate tre
+                  anni fa, documenti non abbastanza conosciuti per la loro importanza in questo
+                  grave periodo di lotta.</p>
+            </div>
+            <pb n="24"/>
+            <div type="person">
+               <!-- Auf Kopie keine Nummerierung, evtl. nochmals im Archiv überprüfen -->
+               <head>P. Andlau S.J.</head>
+               <p>Il Rev. P. Andlau, fu Provinciale ed attuale Superiore della casa dei Gesuiti, am
+                  Hof, è succeduto al P. Abel a guidare gli uomini cattolici di Vienna.</p>
+               <p>La sua è stata un’esposizione molto triste, che conferma previsioni pessimistiche
+                  per l’avvenire della Chiesa in Austria, e soprattutto a Vienna. <hi rend="underline" hand="#UR">Disse di dover basare il suo giudizio su fatti,
+                     dottrine, defezioni e tradimenti, sulla propaganda atea in alto e in basso –
+                     difetti di istruzione religiosa e di persuasione profondamente cattolica</hi> –
+                  condizioni deplorevoli morali, sociali ed economiche d’una città grande, in cui
+                     <hi rend="underline" hand="#UR">l’individuo, la</hi> famiglia e la gioventù
+                  nella scuola e nello sport e gli operai nelle officine vengono continuamente e
+                  perfidamente insidiati. Anche l’autorità è esposta al quotidiano dileggio, ed è
+                  frequente il caso che l’Apostolo di Vienna, Card. Piffl, viene fatto bersaglio
+                  agli strali più avvelenati della stampa massonico bolscevica, senza ritegno e
+                  senza pudore.</p>
+               <p>I casi di apostasia continuano con poche resipiscenze, il Governo fa quello che
+                  può, ma è impacciato dai patti della coalizione, <pb n="25"/>il clero lavora
+                  abbastanza solerte, ma non è numeroso, e così le associazioni cattoliche, troppo
+                  deboli. Il movimento cattolico incontra innumerevoli difficoltà, abbandonati a noi
+                  stessi, andremo deperendo; è necessario un vigoroso risveglio, ma difficilmente vi
+                  arriveremo da soli. <hi rend="mark" hand="#UR"><hi rend="underline" hand="#UR">È
+                        gioco forza rivolgersi ai fratelli d’oltre i confini, alla solidarietà
+                        cattolica per la redenzione della più importante fortezza dell’Europa
+                        Centrale, Vienna.</hi></hi></p>
+            </div>
+            <div type="person" n="l.">
+               <head>Il P. <persName>Koch</persName> S.V.D.</head>
+               <p>Rileva con piacere quanto vanno operando i cattolici sotto la guida dei Vescovi,
+                  ma il <hi rend="underline" hand="#UR">lavoro dovrà venir</hi> intensificato, se si
+                  vuole sanare la situazione estremamente grave sotto molti rispetti. Si dilunga
+                  specialmente sulla miseria della cura d’anime e della scuola. Ha frequente
+                  contatto col clero, che in generale si mostra impressionato del pericolo che si
+                  corre, ed è anche pronto al sacrifizio. Anche secondo lui il numero degli apostati
+                  aumenta, ed i metodi bolscevichi degli avversari trovano sempre nuove applicazioni
+                  a danno della famiglia e della scuola. È preferita la caccia all’operaio ed alla
+                  gioventù.</p>
+               <note type="foliation" rend="typewritten">83</note>
+            </div>
+            <pb n="26"/>
+            <div type="person" n="m.">
+               <head>Barone <persName>Wladimiro Beck</persName>.</head>
+               <p>Fra i laici volli avvicinare il Bar. Beck, fu presidente del Consiglio dei
+                  Ministri al tempo della monarchia, e durante la guerra presidente del nostro
+                  Comitato Centrale per i profughi di guerra del Goriziano, dell’Istria e del
+                  Trentino, più che 80,000 dei nostri connazionali.</p>
+               <p>Si parlò subito della situazione a Vienna ed in Austria, che egli descrisse quale
+                  essa è, e fra le questioni di rilievo toccò lui pure delle famose dispense
+                  matrimoniali, che ingenerano confusioni di natura giuridica e danni morali.
+                  Vorrebbe che nell’interesse della famiglia la questione venisse in qualche modo
+                  regolata. Il Bar. Beck nella sua politica era abile nel trovar risorse e
+                  adagiamenti non sempre for<hi rend="mark" hand="#UR">tunati. <hi rend="underline" hand="#UR">È liberaleggiante, ma si riconosce cattolico, e deplora i
+                        traviamenti del pensiero in danno dell’ordine e della morale
+                     cristia</hi>na.</hi></p>
+            </div>
+            <div type="person" n="n.">
+               <head>Dr. Federico Funder.</head>
+               <p><hi rend="mark" hand="#UR">È il favorevolmente noto direttore della “Reichspost”,
+                     l’organo dei Cristiano sociali, uno dei migliori pubblicisti cattolici, molto
+                     ricco di esperienza e dottrina.</hi></p>
+               <!-- Am Kopf des Blattes befindet sich ein Pfeil nach oben mit der Anmerkung "Funder" wie könnte man dies darstellen? -->
+               <pb n="27"/>
+               <p>Quotidianamente alle prese coi socialisti, <hi rend="mark" hand="#UR">che egli
+                     definisce in ogni numero <hi rend="underline" hand="#LF">austro-marxisti</hi>,
+                        <hi rend="underline" hand="#UR">espone quali sono realmente i loro</hi></hi>
+                  <hi rend="underline" hand="#UR">propositi</hi>, e quanto è deleteria la loro
+                  opera. Quindi la necessità della quotidiana reazione pro aris et focis.</p>
+               <p><hi rend="mark" hand="#UR">Spera molto dal risveglio religioso. <hi rend="underline" hand="#UR">Nelle attuali acque gli sembra una necessità la
+                        coalizione parlamentare, ed è minor male quella coi compariscenti di oggi
+                        che coi socialisti.</hi></hi> È convinto fautore della politica Seipel, se
+                  anche <hi rend="mark" hand="#UR">biasimata e censurata in più circostanze. <hi rend="underline" hand="#UR">Egli prevede che a non lungo andare Mgr. Seipel
+                        dovrà tornare al potere.</hi></hi></p>
+               <p>Lamenta l’inferiorità della nostra stampa, <hi rend="mark" hand="#UR">nonostante
+                     gli enormi sacrifiz i. <hi rend="underline" hand="#UR">Gli riconobbi il merito
+                        di essere uno dei più valenti pionieri.</hi> Lo</hi>da gli sforzi dei
+                  colleghi di altre pubblicazioni, più fortunati quanto a diffusione e comprensione
+                  nelle masse, il trisettimanale “Volksblatt” ed il settimanale “Kirchenblatt” di
+                  Mons. <hi rend="mark" hand="#UR"><choice>
+                        <unclear><persName>Mönzinger</persName></unclear>
+                        <unclear><persName>Mänzinger</persName></unclear>
+                     </choice>. <hi rend="underline" hand="#UR">Questo manipolo- contro
+                        l’interminabile serie di quotidiani e non quotidiani, di tutti i colori, dal
+                        verdastro massonico al più scarlatto comunista.</hi></hi></p>
+               <p>Quanto al movimento, ”Anschluss”, verso la Germania, che in un primo tempo poteva
+                  sembrare unica ancora di salvezza per il benessere dell’Austria,
+                     <persName>Funder</persName> si dice pessimista, il contegno stesso della
+                  Germania (oltre <pb n="28"/><hi rend="mark" hand="#UR">l’indole differente dei
+                     popoli e <add hand="#LF">del</add>le preoccupazioni di carattere religioso)
+                     contegno dimostrato in parecchie occasioni circa questioni riguardanti gli
+                     interessi dell’Austria, non è atto a favorire tale movimento, ed anche dei suoi
+                     fautori della prima ora ci vanno rimettendo del loro entusiasmo.</hi></p>
+            </div>
+            <div type="person" n="o.">
+               <head>P. <persName>Cirillo Fischer</persName> O.F.M.</head>
+               <p>Ne feci menzione più sopra. Questo religioso, di ingegno e temperamento vivaci,
+                  s’è specializzato nello studio delle associazioni e di tutto il movimento
+                  giovanile, sia cattolico e sia avversario. Gli stessi capi socialisti gli
+                  riconoscono, sorpresi e costretti dall’evidenza, incontrastata competenza in
+                  argomento.</p>
+               <p>Si mostrò lieto e grato della mia visita, e fu subito a parlarmi dei due campi,
+                  nostro e dei socialisti, che conosce da vicino anche perché è solito ad
+                  intervenire, in veste civile, ai loro congressi, feste, manifestazioni, e, fin
+                  dove gli riesce, anche alle loro <sic>congrege</sic> private.</p>
+               <p>Secondo il Padre Cirillo adunque si stanno di fronte le due principali
+                     <sic>organizzioni</sic> per la gioventù: i “Kinderfreunde” e la “Frohe
+                  Kinderheit”.</p>
+               <pb n="29"/>
+               <p>La prima, socialista fino alla midolla, conta oggi circa 100,000 amici dei
+                  fanciulli, e 363 gruppi. L’incasso nell’ultimo anno fu di ben quattro millioni di
+                  Schilling (1 Sch. = a Lire 1,70). La categoria degli aiutanti ascende a 5000
+                  membri. <hi rend="mark" hand="#UR"><hi rend="underline" hand="#UR">Come Vienna ne
+                        è infetta la Stiria, dove ebbe i natali l’organizzazione. Vi corrisponde la
+                        loro stampa piena di veleno antireligioso.</hi></hi></p>
+               <p>Si mette speciale cura a distogliere i fanciulli dalla chiesa, dalla frequenza
+                  delle funzioni, dalle pratiche religiose, dalla dottrina cristiana, dei
+                  Sacramenti. <sic>Ve</sic> si ha oltre 6500 che seguono questi metodi. E per
+                  supplire a questo, pure innato, bisogno si sostituiscono altre cerimonie che sono
+                  parodie diaboliche, tipo Mosca: un’imitazione del battesimo e della confermazione
+                  con analogo giuramento di fedeltà al socialismo. Quest’anno poi si ebbe una festa
+                  in opposizione e dileggio della festa del Corpus <hi rend="mark" hand="#UR">Domini, <hi rend="underline" hand="#UR">tanto cara ai fanciulli, e vi
+                        intervennero ben 30,000 bambini</hi>! Non si possono ri</hi>ferire senza un
+                  giusto sdegno tutte fasi, ed il Padre disse di averle osservate tutte e da
+                  vicino.</p>
+               <p>Parlò poi della letteratura socialista, che ben si può definire: irreligione,
+                  immoralità, <hi rend="mark" hand="#UR">glorificazione dei grandi ribelli, <hi rend="underline" hand="#UR">di cui aumenta ogni giorno il calendario. Li
+                           <sic>ajuta</sic> l’associazione <add place="above" hand="#LF">internazionale</add> dei liberi pensatori, che ha uno stabili</hi>mento
+                     tipografico a Vienna, e pubblica periodica<hi rend="underline" hand="#UR">mente
+                        quanto meglio sa di obbrobrioso e ripu</hi>gnante alla religione <hi rend="underline" hand="#UR">cattolica e alla morale</hi></hi>
+                  <pb n="30"/><hi rend="mark" hand="#UR"><hi rend="underline" hand="UR">cristiana</hi>, da degradarne “l’asino” e consorti di</hi> infelice <hi rend="underline" hand="#UR">memoria</hi>. Ed a compiere l’opera
+                     <sic>ajutano</sic> le illustrazioni che gettano nel fango le sacre
+                     <sic>imagini</sic> di Dio, del Redentore, di Maria SS. e vanno insozzando le
+                  venerate figure del Papa, del Card. Piffl, di sacerdoti e religiosi.</p>
+               <p>Ho potuto vedere io stesso un enorme fascio di queste infami produzioni, in veste
+                  appariscente, dal prezzo minimo (alcune da distribuirsi solo agli iniziati), e del
+                  resto facilmente accessibili al popolino ed alla gioventù curiosa ed
+                  inesperta.</p>
+               <p>Un passo innanzi nella formazione socialista sono i “Falchi rossi”, un’imitazione
+                  degli Esploratori e dei “Pionieri” russi. Vi si è accolti con 12 anni di età. Sono
+                  stati fondati fin’ora 120 gruppi con 7000 falchi.</p>
+               <p>I vescovi dell’Austria hanno ripetutamen<hi rend="mark" hand="#UR">te ammonito
+                     contro gli uni e gli altri, <hi rend="underline" hand="#UR">smascherandone</hi>, se occorreva, lo spirito ostile al</hi>la chiesa ed alla
+                  religione. E la risposta di questi briganti della gioventù cattolica fu:
+                  “Strappate alla chiesa i fanciulli, ed essa <sic>crollera</sic>!”.</p>
+               <p>E noi opponiamo a questa propaganda deleteria la nostra “Frohe Kindheit”,
+                  soggiunse il P. Cirillo, e sebbene ancora debole, è una pianta che dovrà crescere
+                  e produrre ottimi frutti. Ma frattanto è necessario che i catto<note type="foliation" rend="typewritten">86</note><pb n="31" break="no" type="us"/>lici dell’Austria, e specialmente quelli di Vienna, comprendano bene che il
+                  socialismo da noi è marxismo, è bolscevismo, che fra non molto non avrà molto da
+                  invidiare ai moscoviti. I nostri socialisti però sono anche prudenti, quando loro
+                  conviene, sanno cambiare tattica pur di poter conquistare, se anche palmo a palmo,
+                  tutto il terreno. V’ha un gruppo di esperti e furbi che sanno ingannare anche gli
+                  accorti, fra gli stessi cattolici.</p>
+               <p>Il loro “Kampf” mensile, del patriarca Bauer, è il Vangelo dell’intelligenza, la
+                  “Arbeiter Zeitung” con una tiratura di oltre 100 mila esemplari e con ottimi
+                  collaboratori, porta nelle masse la dottrina, i fatti, i commenti. Per la gente
+                  ancora più minuta è “das Kleine Blatt”, e poi altri quotidiani, settimanali,
+                  mensili a Vienna e nelle altre città, che si diffondono con premura fino negli
+                  ultimi tuguri per la propagazione del verbo marxista.</p>
+               <p><hi rend="mark" hand="#UR">A qualche mia osservazione il P. Cirillo rispondeva che
+                     le sue informazioni si basano a fatti e cifre, attinte a fonti genuine, e <hi rend="underline" hand="#UR">chiudeva, che un’inchiesta sulla
+                     situazione</hi>, che si volesse fare interrogando la massa dei sacerdoti e dei
+                     laici cattolici, non potrebbe purtroppo avere che risultati <add place="above" hand="#LF">come quelli</add> sapere lamentati.</hi>
+                  <hi rend="mark" hand="#UR">Mi rimetteva poi a molte pubblicazioni sull’argomento
+                     di altri e sue, e fra queste al suo opuscolo “Sozialistische Erziehung”, che
+                     porta una prefazione di S. Eminenza il Card. Piffl.</hi></p>
+            </div>
+         </div>
+         <pb n="32"/>
+         <div type="conclusion">
+            <head>Conclusione</head>
+            <p>La conclusione di questo modesto lavoro è già contenuta nelle parole, premessevi a
+               modo di introduzione, sulla necessità di provvedere a un maggior numero di chiese e
+               di sacerdoti, e ai bisogni della scuola, della famiglia, dell’officina e della
+               gioventù, quotidianamente insidiate dall’indomita propaganda avversaria, e
+               specialmente dei socialisti.</p>
+            <p>La relazione non poté riuscire che monca e deficiente causa la vastità della materia
+               e la ristrettezza di tempo, sempre però diretta all’unico intento di giovare,
+               comunque, a chiarire una situazione difficile e grave.</p>
+            <p>E che tale sia quella di Vienna, lo dicono di nuovo le due <add place="above" hand="#LF">seguenti</add> solenni testimonianze, che insieme confermano
+               autorevolmente quanto fu esposto.</p>
+            <p>“I cattolici di Vienna devono unirsi ed operare compatti per salvare la famiglia, la
+               gioventù, la fede dall’abisso che le minaccia nel nostro paese”. (Card. Piffl, al V
+               congresso cattolico diocesano di Vienna, 14-16 giugno 1929).</p>
+            <p>“Secondo <persName>Lenin</persName>, sono solo due le potenze che domineranno il
+               futuro, la<note type="foliation" rend="typewritten">87</note> <pb n="33"/>chiesa cattolica ed il bolscevismo... E queste due potenze
+               ormai si disputano in aperta lotta Vienna, il baluardo dell’Europa. Se dovesse
+               vincere il bolscevismo, quale sciagura per l’Europa tutta! Il pericolo adunque, che
+               ci minaccia così da vicino, richiede l’unione di tutte le energie dei cattolici...”
+               (Il Vescovo Mgr. <persName>Waitz</persName>, alla Giornata Sociale di Vienna, 16-19
+               giugno 1929).</p>
+         </div>
+         <closer>
+            <lb/><placeName>Kaunas</placeName>, <date when="1929-08-06">6 agosto 1929</date>
+            <lb/><signed rend="align(right)">Sac. <persName>Luigi Faidutti</persName></signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

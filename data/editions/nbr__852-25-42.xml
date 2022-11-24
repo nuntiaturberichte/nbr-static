@@ -1,0 +1,131 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at.at/nbr-pius-xi" xml:id="nbr__852-25-42.xml" prev="https://id.acdh.oeaw.ac.at.at/nbr-pius-xi/nbr__852-24-4.xml" next="https://id.acdh.oeaw.ac.at.at/nbr-pius-xi/nbr__852-25-43.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Enrico Sibilia an Eugenio Pacelli, Wien 29.08.1931</title>
+            <author>
+               <persName>Enrico Sibilia</persName>
+            </author>
+            <respStmt>
+               <resp>TEI tempalte prepared by</resp>
+               <persName ref="#daniel.schopper">Daniel Schopper</persName>
+               <persName ref="#stephan.kurz">Stephan Kurz</persName>
+            </respStmt>
+            <respStmt>
+               <resp>edited by</resp>
+               <persName ref="#bernhard.kronegger">Bernhard Kronegger</persName>
+            </respStmt>
+            <respStmt>
+               <resp>kollationieren</resp>
+               <persName ref="#andreas.steingress">Andreas Steingress</persName>
+               <persName ref="#bernhard.kronegger">Bernhard Kronegger</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <!-- To be decided -->
+            <publisher>...</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc status="Reinschrift">
+               <msIdentifier>
+                  <repository>AA.EE.SS., Periodo IV, Austria Ungheria</repository>
+                  <idno type="archive">Pos. 852, Fasc. 25, Fol. 42r+v</idno>
+                  <idno type="institutional" subtype="internal">2322/31</idno>
+                  <idno type="institutional" subtype="external">13.106/571</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <note type="keyword" resp="#bernhard.kronegger">Seipel</note>
+                     <note type="keyword" resp="#bernhard.kronegger">Präsidentschaftswahl</note>
+                     <note type="keyword" resp="#bernhard.kronegger">Konkordat</note>
+                     <note type="keyword" resp="#bernhard.kronegger">Innenpolitik</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <scriptDesc>
+                     <ab>Maschinenschriftlich</ab>
+                  </scriptDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <p>Der Nuntius habe sich gestern mit dem aus dem Sanatorium zurückgekehrten Seipel
+               unterhalten. Die christlichsoziale Partei, der Landbund und andere Fraktionen würden
+               ihn drängen, die Kandidatur zur Wahl des Bundespräsidenten zu akzeptieren. Seipel habe
+               ihnen gesagt, er müsse sich dies erst noch überlegen. Seipel habe hinzugefügt, dass
+               die Nominationen bis Mitte September veröffentlicht würden, und das Dr. Renner als
+               sozialistischer Kandidat aufgestellt würde. Deshalb müsse Seipel den Hl. Stuhl um ein apostolisches Indult bezüglich des Canon 139 §2
+               bitten, ohne dass er die Kandidatur nicht akzeptieren wolle und könne. Der Nuntius
+               spreche sich dafür aus, dieses Indult zu erteilen. Was die Wahl betreffe, so glaube
+               Seipel, dass er gute Chancen habe zu gewinnen. Aufgrund der Dringlichkeit bitte der
+               Nuntius, dass der Hl. Stuhl ihm die Entscheidung per verschlüsseltem Telegramm
+               zukommen lasse. Seipel habe danach mit dem Nuntius über den Entwurf des Konkordats
+               gesprochen, welches er von Kanzler Buresch erhalten habe. Seipel habe gesagt, dass er
+               den Entwurf für exzellent halte, nur der auf die Staatsfinanzen bezogene Teil könne
+               Schwierigkeiten bereiten. Auch die vier Fälle in den Anmerkungen könnten leicht
+               gelöst werden, da die Christlichsozialen sich mit aller Kraft gegen die Einführung
+               der Zivilehe in Österreich stellen würden und die Stabilität und Unauflöslichkeit der
+               katholischen Ehe verteidigen würden.</p>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Enrico Sibilia</persName>
+               <date when="1931-08-29">29.08.1931</date>
+               <placeName>Wien</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Eugenio Pacelli</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text type="Brief">
+      <body>
+         <pb n="1"/>
+         <opener>
+            <seg type="subjectLine">Oggetto: Mgr. Seipel.</seg>
+            <salute>Eminenza Reverendissima,</salute>
+         </opener>
+         <p><sic>Jeri</sic> sera è venuto da me Mgr. Seipel, tornato appena dal Sanatorio di Zürs
+            Arlberg, nel Vorarlberg, alquanto migliorato in salute, per dirmi che il Partito
+            cristiano-sociale, quello del Landbund e alcune altre frazioni politiche gli hanno
+            proposto di accettare la candidatura a Presidente della Repubblica austriaca, non
+            essendo possibile differirne l’elezione nella prossima primavera. Egli, continuava
+            dicendo, ha risposto ai proponenti che essendo innanzi a tutto Sacerdote doveva prima
+            riflettervi e che perciò non poteva far conoscere la sua risoluzione se non dopo alcuni
+            giorni; e mi aggiungeva che le candidature presidenziali si farebbero pubbliche verso la
+            metà del prossimo settembre e che il candidato dei socialisti sarebbe il Dr. Renner.
+            Pertanto, proseguiva Mgr. Seipel, avrei da farLe una “grande preghiera”, di ottenermi
+            cioè dalla Santa Sede l’indulto Apostolico a norma del Can. 139 § 2, senza del quale né
+            accetterei, né potrei accettare.</p>
+         <pb n="2"/>
+         <p>Salvo quello superiore dell’Eminenza Vostra Reverendissima, sarei di subordinato parere
+            che converrebbe accordare un tale indulto; circa però l’esito della votazione popolare
+            benché Mgr. Seipel crede che molto probabilmente sarà a Lui favorevole, pure a me non è
+            dato se non farne i voti migliori.</p>
+         <p>Attesa l’urgenza che ha Mgr. Seipel di conoscere la suprema risoluzione della Santa Sede
+            a suo riguardo, oso pregare l’E.V.R. voglia compicersi di comunicarmela per telegramma
+            in cifra.</p>
+         <!-- Hier befindet sich im Original eine Trennlinie, wie stellt man diese dar? -->
+         <p>Poi Mgr. Seipel mi parlò dello Schema di Concordato e relativi annessi, comunicatigli
+            dal Sig. Cancelliere Dr. Buresch; e mi disse che egli lo giudica eccellente, e che
+            presenterà qualche difficoltà solo quella parte che esige il concorso pecuniario dello
+            Stato per non trovarsi questo in floride condizioni; mi disse in fine che anche i
+            quattro casi dell’”Appunto” saranno di facile soluzione, perché i cristiano-sociali si
+            opporranno con tutte le loro forze all’introduzione in Austria del cosidetto matrimonio
+            civile per i cattolici sia pure facoltativo; e che qualora una tale opposizione
+            riuscisse inutile, si penserà a mettere sempre in salvo la stabilità e indissolubilità
+            del matrimonio cattolico, anche nel caso di coloro che avessero in antecedenza contratto
+            un legame civile.</p>
+         <closer>
+            <salute><lb/>Inchinato al bacio della Sacra Porpora, ho l’onore di raffermarmi <lb/>col
+               più profondo ossequio <lb/>dell’Eminenza Vostra Reverendissima </salute>
+            <signed rend="handwritten"><lb/>Umilissimo, devmo, obbmo Servo <lb/>+Enrico, Arciv. di
+               Side <lb/>Nunzio Aplico</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

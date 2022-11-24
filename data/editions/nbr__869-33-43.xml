@@ -1,0 +1,130 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at.at/nbr-pius-xi" xml:id="nbr__869-33-43.xml" prev="https://id.acdh.oeaw.ac.at.at/nbr-pius-xi/nbr__869-33-42.xml" next="https://id.acdh.oeaw.ac.at.at/nbr-pius-xi/nbr__869-33-46.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Augustin Bea an Pius XI., Pullach bei München 12.08.1932</title>
+            <author><persName>Augustin Bea</persName></author>
+            <respStmt>
+               <resp>TEI tempalte prepared by</resp>
+               <persName ref="#daniel.schopper">Daniel Schopper</persName>
+               <persName ref="#stephan.kurz">Stephan Kurz</persName>
+            </respStmt>
+            <respStmt>
+               <resp>edited by</resp>
+               <persName ref="#bernhard.kronegger">Bernhard Kronegger</persName>
+            </respStmt>
+            <respStmt>
+               <resp>kollationieren</resp>
+               <persName ref="#andreas.steingress">Andreas Steingress</persName>
+               <persName ref="#bernhard.kronegger">Bernhard Kronegger</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <!-- To be decided -->
+            <publisher>Publication Information</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc status="Reinschrift">
+               <msIdentifier>
+                  <repository>AA.EE.SS., Periodo IV, Austria Ungheria</repository>
+                  <idno type="archive">Pos. 869, Fasc. 33, Fol. 43r-45</idno>
+                  <idno type="institution" subtype="internal">2385/32</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <note type="keyword" resp="#bernhard.kronegger">Bischofsernennung Wien</note>
+                     <note type="keyword" resp="#bernhard.kronegger">Theodor Innitzer</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <scriptDesc>
+                     <ab>Handschriftlich</ab>
+                  </scriptDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <p>Augustin Bea sei zwar nicht umfassend hinsichtlich Msgr. Innitzer informiert, habe aber, um
+               seine Aufgabe zu erfüllen, dessen exegetische Schriften studiert. Er kenne ihn
+               persönlich und habe auch Erkundigungen eingeholt. In seinen exegetischen
+               Veröffentlichungen (eine Monographie zu Johannes dem Täufer und eine Neuauflage der
+               Kommentare seines Vorgängers Prof. Pölzl) halte Innitzer sich treu an die katholische
+               Tradition und an die Dekrete der Päpstlichen Bibelkommission. Er könne als Vertreter
+               der konservativen Strömung der katholischen Exegese gesehen werden. Wissenschaftlich
+               zeige sein Werk weder große Originalität, noch zeuge sie von einer tiefen
+               persönlichen Nachforschung, aber sie seien ob ihrer Sorgfalt und fleißigen
+               Ausarbeitung geschätzt. Seine Schriften zeigen Innitzer vom Charakter her als der
+               Kirche treu, fleißig und gelehrt, wohlüberlegt und bedacht, aber nicht originell oder
+               individuell.</p>
+            <p>Über Innitzers privates Verhalten habe er nicht viel zu sagen, er habe ihn nur ein
+               Mal getroffen, als er zu den Verhandlungen wegen der Apostolischen Konstitution „Deus
+               scientiarum Dominus“ in Rom war. Er habe sich lange mit ihm unterhalten, was ihm eher
+               einen guten Eindruck über seine kirchliche Gesinnung und seine Treue zum Hl. Stuhl,
+               als über seine Urteilsfähigkeit gegeben habe. Insgesamt sehe der Autor nichts, was
+               der Erhebung von Msgr. Innitzer entgegen stünde, seine positiven Eigenschaften würden
+               eine erfolgreiche Amtsführung in Wien garantieren.</p>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Augustin Bea</persName>
+               <date when="1932-08-12">12.08.1932</date>
+               <placeName>Pullach bei München</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Pius XI.</persName>
+               <placeName>Vatikanstadt</placeName>
+            </correspAction>
+            <correspAction type="forwarded">
+               <persName>Giuseppe Pizzardo</persName>
+               <placeName>Vatikanstadt</placeName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text type="Brief">
+      <body>
+         <pb n="1"/>
+         <opener><salute>Beatissimo Padre,</salute></opener>
+         <p>Accingendomi a soddisfare al venerato incarico della Santità Vostra di dare il mio
+            parere sull’Ill.mo e Rev.mo Monsignor Innitzer, Professore di Sacra Scrittura nella
+            Università di Vienna, lo ritengo doveroso premettere che non sono largamente informato
+            in proposito. Tuttavia ho fatto un esame accurato sugli scritti esegetici del Rev.mo
+            Prelato e, conoscendolo personalmente e da alcuni giudizi di persone fidate, credo di
+            poter dare in Domino il seguente giudizio.</p>
+         <p>Nelle pubblicazioni esegetiche (una monografia su S. Giovanni Battista, nuove edizioni
+            dei commentari pubblicati dal suo predecessore il Prof. Pölzl) il Prof. Innitzer si
+            attiene fedelmente alla tradizione cattolica e ai decreti della Pont. Commissione
+            Biblica, e può essere considerato come fedele rappresentante <note type="foliation" rend="typewritten">43</note>
+            <pb n="2"/>della tendenza conservatrice dell’esegesi cattolica. Scientificamente
+            considerati, i suoi lavori non mostrano un gran valore originale, né danno l’idea di un
+            indagatore profondo e personale, ma sono apprezzati come fatti con <sic>molto</sic> cura
+            e diligenza, e si distinguono per una indole ponderata e di sobrio giudizio. Così dagli
+            scritti risulta un carattere fedele alla S. Chiesa, diligente e studioso, ponderato e
+            prudente, ma non tanto originale e personale.</p>
+         <p>Dai suoi scolari il Professore Innitzer sembra essere stimato. Avevano negli ultimi due
+            anni un suo scolare nel nostro Istituto il quale dava l’impressione di una formazione
+            soda e di spirito ecclesiastico avuta dal suo Professore sul quale parlava con stima
+            scientifica e venerazione personale.</p>
+         <p>Sulla condotta privata del Rev.mo Prelato non avrei notizie particolari. L’ho visto una
+            sola volta quando questo anno venne a Roma in occasione delle trattative sulla Cost.
+            Apost. “Deus scientiarum <note type="foliation" rend=" typewritten">44</note><pb n="3"/>Dominus” ed ho avuto con lui un lungo colloquio che mi ha dato una ottima impressione
+            tanto del suo spirito ecclesiastico ed attaccato alla Santa Sede che del suo giudizio
+            pratico e misurato.</p>
+         <p>Riassumendo tutte le notizie avute sulla dottrina e sulla persona del Rev.mo Mons.
+            Innitzer, non mi risulta nulla che sarebbe contrario alla sua elevazione, e mi sembra
+            che vi siano buone qualità positive che garantiscano un felice successo nel governo
+            della diocesi di Vienna.</p>
+         <closer>
+            <salute>Prego la Santità Vostra di gradire questo umile mio parere in proposito, per
+               quanto sia imperfetto, e prostrato al bacio del Sacro Piede, imploro umilmente la
+               benedizione apostolica. <lb/>Della Santità Vostra <lb/>Umilissimo Obbedientissimo
+               Devotissimo </salute>
+            <signed>Agostino Bea</signed>
+         </closer>
+         <note type="foliation" rend="typewritten">45</note>
+      </body>
+   </text>
+</TEI>

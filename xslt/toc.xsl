@@ -32,6 +32,7 @@
                                         <tr>
                                             <th scope="col">Titel</th>
                                             <th scope="col">Datum</th>
+                                            <th scope="col">Schlagworte</th>
                                             <th scope="col">Dateinname</th>
                                         </tr>
                                     </thead>
@@ -51,6 +52,13 @@
                                                 </td>
                                                 <td>
                                                     <xsl:value-of select=".//@when[1]"/>
+                                                </td>
+                                                <td>
+                                                    <ul>
+                                                    <xsl:for-each select=".//tei:note[@type='keyword']">
+                                                        <li><xsl:value-of select="./text()"/></li>
+                                                    </xsl:for-each>
+                                                    </ul>
                                                 </td>
                                                 <td>
                                                     <xsl:value-of select="tokenize($full_path, '/')[last()]"/>

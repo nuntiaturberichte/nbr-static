@@ -1,0 +1,96 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at.at/nbr-pius-xi" xml:id="nbr__869-33-12.xml" prev="https://id.acdh.oeaw.ac.at.at/nbr-pius-xi/nbr__869-33-11.xml" next="https://id.acdh.oeaw.ac.at.at/nbr-pius-xi/nbr__869-33-13.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wenzel Grosam an Enrico Sibilia, Linz 11.07.1932</title>
+            <author><persName>Wenzel Grosam</persName></author>
+            <respStmt>
+               <resp>TEI tempalte prepared by</resp>
+               <persName ref="#daniel.schopper">Daniel Schopper</persName>
+               <persName ref="#stephan.kurz">Stephan Kurz</persName>
+            </respStmt>
+            <respStmt>
+               <resp>edited by</resp>
+               <persName ref="#bernhard.kronegger">Bernhard Kronegger</persName>
+            </respStmt>
+            <respStmt>
+               <resp>kollationieren</resp>
+               <persName ref="#andreas.steingress">Andreas Steingress</persName>
+               <persName ref="#bernhard.kronegger">Bernhard Kronegger</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <!-- To be decided -->
+            <publisher>Publication Information</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc status="Reinschrift">
+               <msIdentifier>
+                  <repository>AA.EE.SS., Periodo IV, Austria Ungheria</repository>
+                  <idno type="archive">Pos. 869, Fasc. 33, Fol. 12r</idno>
+                  <idno type="institutional" subtype="internal">2065/32</idno>
+                  <idno type="institutional" subtype="external">Beilage zu 13.986/634</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <note type="keyword" resp="#bernhard.kronegger">Bischofsernennung Wien</note>
+                     <note type="keyword" resp="#bernhard.kronegger">Wenzel Grosam</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <scriptDesc>
+                     <ab>Handschriftlich</ab>
+                  </scriptDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <p>Grosam berichtet, dass er gestern die Entscheidung des Hl. Offiziums zu seiner
+               Ernennung erhalten habe und wie vom Blitz getroffen auf die Knie gefallen sei. Er
+               habe die Nacht schlaflos zugebracht, habe dann die Hl. Messe gefeiert und zu Füßen
+               des Kreuzes Jesus Christi gekniet, und erkläre mit gestärktem Geist, dass er seine
+               Zustimmung weder gebe, noch geben werde. Wenn er die Ernennung annähme, wäre dies zum
+               Schaden und zur Schande der Kirche und zum Ruin seiner Seele.</p>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Wenzel Grosam</persName>
+               <date when="1932-07-11">11.07.1932</date>
+               <placeName>Linz</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Enrico Sibilia</persName>
+            </correspAction>
+            <correspAction type="forwarded">
+               <persName>Eugenio Pacelli</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text type="Brief">
+      <body>
+         <pb n="1"/>
+         <opener>
+            <salute>Excellentia Reverendissima!</salute>
+         </opener>
+         <p>Accepto heri, hora vigesima secunda, nuntio ab Excellentia Vestra Illma, sub secreto
+            Sancti Officii, mihi comunicato, quasi fulgure tactus in genua procubui. Noctem hanc
+            insomnem transegi. Nunc vero, celebrato SS. Missae sacrificio, ad pedes Crucifixi D. N.
+            Jesu Christi procumbens, firmo animo declaro:</p>
+         <p>me nec dare nec daturum esse consensum, literis Excellentiae Vestrae Illmae petitum.
+            Etenim dictamine conscientiae meae - deus scit - praesumptionis sacrilegae reus
+            evaderem, si altissimam dignitatem mihi oblatam acceptarem; in dedecus et damnum
+            Ecclesiae et ruinam animae meae.</p>
+         <p>Parcat Beatissimus Pater, Sanctissimus Dominus Noster; ignoscat Excellentia Vestra
+            Illma</p>
+         <closer><salute><lb/>servo humillimo</salute>
+            <signed><lb/>Vencesl. Grosam <lb/>sacerdoti Linciensi</signed>
+            <placeName>Lincii</placeName><date>d. 11. Julii 1932</date>
+         </closer>
+         <note type="foliation" rend="typewritten">12</note>
+      </body>
+   </text>
+</TEI>

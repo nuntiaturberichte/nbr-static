@@ -39,7 +39,7 @@
                                 </div>
                             </div>
                             <a class="btn btn-main btn-outline-primary btn-lg"
-                                href="822-15-28.html"
+                                href="nbr__822-15-28.html"
                                 role="button">Zum ersten Dokument</a>
                             <a class="btn btn-main btn-outline-primary btn-lg"
                                 href="toc.html" role="button">Alle Dokumente</a>
