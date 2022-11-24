@@ -88,6 +88,107 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5 class="card-title">Beschreibung des Dokuments</h5>
+                                </div>
+                                <div class="table-responsive">
+                                    <table class="table table-sm table-hover">
+                                        <tr>
+                                            <td>Autor: </td>
+                                            <td>
+                                                <xsl:apply-templates select="//tei:author"/>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Adressat: </td>
+                                            <td>
+                                                <xsl:apply-templates select="//tei:correspAction[@type='received']/tei:persName"/>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Art des Dokuments:</td>
+                                            <td>
+                                                <xsl:value-of select="//tei:text/@type"/>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Status des Dokuments:</td>
+                                            <td>
+                                                <xsl:value-of select="//tei:msDesc/@status"/>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Ausführung: </td>
+                                            <td>
+                                                <xsl:apply-templates select="//tei:scriptDesc/tei:ab"/>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Ort Absender: </td>
+                                            <td>
+                                                <xsl:apply-templates select="//tei:correspAction[@type='sent']/tei:placeName"/>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Ort Empfänger: </td>
+                                            <td>
+                                                <xsl:apply-templates select="//tei:correspAction[@type='received']/tei:placeName"/>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Absendedatum: </td>
+                                            <td>
+                                                <xsl:apply-templates select="//tei:correspAction[@type='sent']/tei:date"/>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Empfangsdatum: </td>
+                                            <td>
+                                                <xsl:apply-templates select="//tei:correspAction[@type='received']/tei:date"/>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Interne Nummerierung: </td>
+                                            <td>
+                                                <xsl:apply-templates select="//tei:msIdentifier/tei:idno[@subtype='internal']"/>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Externe Nummerierung: </td>
+                                            <td>
+                                                <xsl:apply-templates select="//tei:msIdentifier/tei:idno[@subtype='external']"/>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Quelle: </td>
+                                            <td>
+                                                <span>
+                                                    <xsl:apply-templates select="//tei:msIdentifier/tei:repository"/>
+                                                </span>
+                                                <xsl:text> - </xsl:text>
+                                                <span>
+                                                    <xsl:apply-templates select="//tei:msIdentifier/tei:idno[@type='archive']"/>
+                                                </span>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                            
+                            <div class="card card-header text-secondary">
+                                <h5 class="card-title">Regest</h5>
+                                <xsl:apply-templates select="//tei:abstract"/>
+                                <h5 class="card-title mt-3 mb-0">Schlagworte</h5>
+                                <div class="card-body text-secondary m-0 p-0 mb-2">
+                                    <xsl:for-each select="//tei:note[@type='keyword']">
+                                        <a href="#" class="btn btn-primary btn-sm p-1 m-1">
+                                            <xsl:value-of select="."/>
+                                        </a>
+                                    </xsl:for-each>
+                                </div>
+                            </div>
+                            
                             <div class="card-body">                                
                                 <xsl:apply-templates select=".//tei:body"></xsl:apply-templates>
                             </div>
