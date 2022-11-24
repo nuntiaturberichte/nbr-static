@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Enrico Sibilia an Eugenio Pacelli, Wien 22.09.1932</title>
+            <author>Enrico Sibilia</author>
+            <respStmt>
+               <resp>TEI tempalte prepared by</resp>
+               <persName ref="#daniel.schopper">Daniel Schopper</persName>
+               <persName ref="#stephan.kurz">Stephan Kurz</persName>
+            </respStmt>
+            <respStmt>
+               <resp>edited by</resp>
+               <persName ref="#bernhard.kronegger">Bernhard Kronegger</persName>
+            </respStmt>
+            <respStmt>
+               <resp>kollationieren</resp>
+               <persName ref="#andreas.steingress">Andreas Steingress</persName>
+               <persName ref="#bernhard.kronegger">Bernhard Kronegger</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <!-- To be decided -->
+            <publisher>Publication Information</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc status="Reinschrift">
+               <msIdentifier>
+                  <repository>AA.EE.SS., Periodo IV, Austria Ungheria</repository>
+                  <idno type="archive">Pos. 869, Fasc. 33, Fol. 65r+v</idno>
+                  <idno type="institutional" subtype="internal">2835/32</idno>
+                  <idno type="institutional" subtype="external">14.271/646</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <note type="keyword" resp="#bernhard.kronegger">Bischofsernennung Wien</note>
+                     <note type="keyword" resp="#bernhard.kronegger">Theodor Innitzer</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <scriptDesc>
+                     <ab>Maschinenschriftlich</ab>
+                  </scriptDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <p>Die Wahl Msgr. Theodor Innitzers zum Erzbischof von Wien, welche der Nuntius der
+               Regierung mitgeteilt habe, sei auf freundliche Aufnahme seitens der Regierung
+               gestoßen und habe auch bei den unterschiedlichen sozialen Klassen einen positiven
+               Eindruck hinterlassen. Die katholische Presse habe einen langen Leitartikel über ihn
+               veröffentlicht, in dem die außergewöhnlichen Fähigkeiten des neuen Erzbischofs betont
+               wurden und in dem dem Hl. Vater dafür gedankt wurde, dass er dieser Stadt einen so würdigen Hirten
+               gegeben habe. Auch die liberale Presse habe übereinstimmend geschrieben, dass die
+               Wahl nicht besser hätte ausfallen können. Selbst das Organ der Sozialdemokratischen
+               Partei, die „Arbeiter Zeitung“, habe zwar den Anlass genützt, sich für eine Trennung von
+               Kirche und Staat auszusprechen, aber eingestehen müssen, dass „die Wahl des Papstes
+               nicht auf eine unangenehme Person gefallen sei“.</p>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Enrico Sibilia</persName>
+               <date when="1932-09-22">22.09.1932</date>
+               <placeName>Wien</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Eugenio Pacelli</persName>
+               <placeName>Vatikanstadt</placeName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text type="Brief">
+      <body>
+         <pb n="1"/>
+         <opener>
+            <seg type="subjectLine">Oggetto: Favorevole accoglienza elezione Mgr. Innitzer.</seg>
+            <salute>Eminenza Reverendissima,</salute>
+         </opener>
+         <p>Facendo seguito al mio rispettoso cifrato del 20 c.m. N. 73, ho l’onore di riferire alla
+            Eminenza Vostra Reverendissima che la notizia dell’elezione di Mgr. Teodoro Innitzer ad
+            arcivescovo di Vienna, da me comunicata in via amichevole al Governo e da questo
+            diramata per mezzo di un comunicato ufficiale alla stampa, non solo fu accolta con
+            figliale riconoscenza e vivo gradimento da parte di questo Governo, ma ha prodotto
+            ancora la più favorevole impressione nelle varie classi sociali, che da lungo tempo
+            ebbero modo di apprezzare le grandi doti di mente e di cuore del neo-eletto.</p>
+         <p>La stampa cattolica ha pubblicato per l’occasione lunghi articoli editoriali in cui,
+            mettendo in rilievo le straordinarie qualità del nuovo Arcivescovo, esprime la sua
+            riconoscenza al Santo Padre per essersi degnato di dare a questa insigne Metropoli un
+            così degno Pastore.</p>
+         <p>Pure la stampa liberale è stata concorde nel dire che la scelta non<note
+               type="foliation" rend="typewritten">65</note>
+            <pb n="2"/>poteva essere più felice, e lo stesso organo del partito socialista
+            democratico, l’”Arbeiter Zeitung”, pur non tralasciando l’occasione di manifestarsi
+            favorevole alla separazione della Chiesa dallo Stato e di ferire in qualche modo il
+            Governo, è costretto a confessare che “la scelta del Papa non è caduta su di una
+            personalità antipatica”.</p>
+         <closer><salute><lb/>Inchinato al bacio della Sacra Porpora, col più profondo ossequio ho
+               <lb/>l’onore di riaffermarmi <lb/>della Eminenza Vostra Reverendissima </salute>
+            <signed><lb/>Umilissimo, devmo, obbmo Servo <lb/>+Enrico, Arciv. di Side <lb/>Nunzio
+               Aplico</signed>
+         </closer>
+      </body>
+   </text>
+</TEI>

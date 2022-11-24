@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Enrico Sibilia an Pietro Gasparri, Wien 28.03.1923</title>
+            <author>
+               <persName>Enrico Sibilia</persName>
+            </author>
+            <respStmt>
+               <resp>TEI tempalte prepared by</resp>
+               <persName ref="#daniel.schopper">Daniel Schopper</persName>
+               <persName ref="#stephan.kurz">Stephan Kurz</persName>
+            </respStmt>
+            <respStmt>
+               <resp>edited by</resp>
+               <persName ref="#bernhard.kronegger">Bernhard Kronegger</persName>
+            </respStmt>
+            <respStmt>
+               <resp>kollationieren</resp>
+               <persName ref="#andreas.steingress">Andreas Steingress</persName>
+               <persName ref="#bernhard.kronegger">Bernhard Kronegger</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <!-- To be decided -->
+            <publisher>Publication Information</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc status="Abschrift">
+               <msIdentifier>
+                  <repository>AA.EE.SS, Periodo IV, Austria Ungheria</repository>
+                  <idno type="archive">Pos. 848, Fasc. 20, Fol. 48r</idno>
+                  <idno type="institutional" subtype="internal">15385</idno>
+                  <idno type="institutional" subtype="telegram">8</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <note type="keyword" resp="#bernhard.kronegger">Außenpolitik</note>
+                     <note type="keyword" resp="#bernhard.kronegger">Ignaz Seipel</note>
+                     <note type="keyword" resp="#bernhard.kronegger">Benito Mussolini</note>
+                     <note type="keyword" resp="#bernhard.kronegger">Hl. Stuhl</note>
+                     <note type="keyword" resp="#bernhard.kronegger">Ludwig von Pastor</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <ab>Handschriftlich</ab>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <p>Nuntius Sibilia informiert Gasparri, dass Kanzler Seipel am 30.03. nach Mailand
+               kommen werde, um Mussolini zu treffen, und erkundigt sich nach der Möglichkeit einer
+               Audienz beim Papst in Rom am 02.04. Gasparri informiert ihn, dass dem nichts
+               entgegenstehe, wenn Seipel in Rom zuerst zum Heiligen Vater käme. Der Nuntius
+               berichtet daraufhin, dass Mussolini darauf bestehe, dass in Rom zuerst der Quirinal
+               besucht werden müsse. Der Kanzler wäre aber eher bereit den Besuch in Rom
+               abzubrechen, als den Hl. Stuhl zu brüskieren. Der Nuntius warnt vor den Konsequenzen
+               einer solchen Krise: Sollte der Kanzler aus Mailand zurückkehren, ohne nach Rom
+               gefahren zu sein, würde er wohl seine Demission einreichen müssen. Gasparri
+               signalisiert daraufhin, dass der Kanzler nach Rom kommen und den Besuch beim Quirinal
+               machen könne entsprechend einer Vereinbarung, die mit Ludwig von Pastor getroffen
+               wurde.</p>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Enrico Sibilia</persName>
+               <date when="1923-03-28">28.03.1923</date>
+               <placeName>Wien</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Pietro Gasparri</persName>
+               <placeName>Rom</placeName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text type="Telegramm">
+      <body>
+         <pb n="1"/>
+         <opener><lb/>Da cifra <placeName>Vienna</placeName>
+            <date when="1923-03-28">28-3-23</date>
+            <lb/><persName>Cardinale Gasparri</persName><lb/><placeName>Roma</placeName></opener>
+         <p>8 Ministro Esteri mi ha comunicato ora: Cancelliere protesta rinuncia<subst>
+               <del><gap reason="overwritten" unit="char" quantity="2"/></del>
+               <add rend="overwritten">re</add>
+            </subst> visita Roma e presidente governo piuttosto che fare cosa non gradita Santa
+            Sede. Mu<add>s</add>solini insiste che prima visita sia Quirinale. Andata<del><gap
+                  reason="strikethrough" unit="char" quantity="4"/></del> cancelliere Roma sarebbe
+            di <subst>
+               <del rend="strikethrough">legittimare</del>
+               <add place="above">alta importanza</add>
+            </subst>
+            <sic>ecomica</sic> austriaca: Altrimenti si avrebbe dannosa conseguenza. In tal caso
+            Cancelliere <del rend="strikethrough">dovendo</del> dovrebbe dare <del
+               rend="strikethrough"><gap reason="strikethrough" unit="char" quantity="3"/></del>
+            dimissioni tornato appena <del rend="strikethrough"><gap reason="strikethrough"
+                  unit="char" quantity="4"/></del> da Milano. Tale crisi porterebbe seco <del
+               rend="strikethrough">eces</del> eccessi contro la S. Sede, nunziatura chiusa.
+            Ministro Austria Roma incaricato trasmettere urgenza risposta S. Sede a Milano. </p>
+         <closer><signed>Sibilia</signed></closer>
+      </body>
+   </text>
+</TEI>

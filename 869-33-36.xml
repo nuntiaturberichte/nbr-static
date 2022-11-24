@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Enrico Sibilia an Eugenio Pacelli, Wien 02.08.1932</title>
+            <author>Enrico Sibilia</author>
+            <respStmt>
+               <resp>TEI tempalte prepared by</resp>
+               <persName ref="#daniel.schopper">Daniel Schopper</persName>
+               <persName ref="#stephan.kurz">Stephan Kurz</persName>
+            </respStmt>
+            <respStmt>
+               <resp>edited by</resp>
+               <persName ref="#bernhard.kronegger">Bernhard Kronegger</persName>
+            </respStmt>
+            <respStmt>
+               <resp>kollationieren</resp>
+               <persName ref="#andreas.steingress">Andreas Steingress</persName>
+               <persName ref="#bernhard.kronegger">Bernhard Kronegger</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <!-- To be decided -->
+            <publisher>Publication Information</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc status="Reinschrift">
+               <msIdentifier>
+                  <repository>AA.EE.SS., Periodo IV, Austria Ungheria</repository>
+                  <idno type="archive">Pos. 869, Fasc. 33, Fol. 36r+v</idno>
+                  <idno type="institutional" subtype="internal">2293/32</idno>
+                  <idno type="institutional" subtype="external">14.139/639</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <note type="keyword" resp="#bernhard.kronegger">Bischofsernennung Wien</note>
+                     <note type="keyword" resp="#bernhard.kronegger">Theodor Innitzer</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <scriptDesc>
+                     <ab>Maschinenschriftlich</ab>
+                  </scriptDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <p>Der Nuntius habe nun neue und präzisere Informationen zu Msgr. Innitzer eingeholt. Er
+               habe Msgr. Wagner den Kanzler der erzbischöflichen Kurie gebeten, ihm die Lebensläufe
+               einiger Wiener Priester, darunter auch den von Innitzer, zukommen zu lassen. Er
+               übermittle diesen angehängt. Bezüglich der Befürchtungen von P. Ersin S.J. glaube der
+               Nuntius, dass diese unbegründet seien. Man könne festhalten, dass Innitzer in vielen
+               Situationen seine Charakterfestigkeit unter Beweis gestellt habe: so etwa als er
+               Rektor der Universität war und dort einige jüdische und protestantische Professoren
+               mit viel Takt und Energie auf ihren Platz verwiesen habe. Auch als Sozialminister
+               habe er sich mehrfach öffentlich den Sozialisten entgegengestellt. Sein freundlicher,
+               offener, freimütiger und entgegenkommender Charakter könnte die Ursache für diese
+               Befürchtungen sein. Die Tatsachen würden dies aber als unbegründet widerlegen. Er sei
+               in Weipert in Böhmen am 25.12.1875 geboren und habe sein Theologiestudium im Wiener
+               Seminar abgeschlossen. Der Umstand, dass er böhmischen Ursprungs sei, stelle kein
+               Problem dar, da es in Wien und anderenorts viele Priester gebe, die außerhalb des
+               heutigen Österreichs geboren seien. Diese hätten aber die österreichische
+               Staatsbürgerschaft und würden deshalb als wahre Österreicher angesehen.</p>
+         </abstract>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Enrico Sibilia</persName>
+               <date when="1932-08-02">02.08.1932</date>
+               <placeName>Wien</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Eugenio Pacelli</persName>
+               <placeName>Vatikanstadt</placeName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text type="Brief">
+      <body>
+         <pb n="1"/>
+         <opener>
+            <seg type="subjectLine">Oggetto: Mgr. Innitzer.</seg>
+            <salute>Eminenza Reverendissima,</salute>
+         </opener>
+         <p>Com’ebbi l’onore di ricevere il venerato dispaccio della Eminenza Vostra Reverendissima
+            del 27 luglio u.s. N. 2152/32, mi recai a doverosa premura di assumere sub secreto
+            Sancti Offici nuove e più precise informazioni sul conto dell’Illmo. e Revmo. Mgr.
+            Teodoro Innitzer.</p>
+         <p>Pregai pertanto sottodetto secreto Mgr. Wagner, Cancelliere di questa Curia
+               Arcivescovile<add rend="handwritten">,</add> a volermi favorire il <hi
+               rend="underline">curriculum vitae</hi> di alcuni sacerdoti di Vienna (e ciò onde
+            rimuovere qualsiasi motivo anche a congetture su un determinato candidato) fra cui
+            quello dell’Innitzer.</p>
+         <p>Oggi avutolo mi affretto a rimetterlo, qui acchiuso, alla E.V.R..</p>
+         <p>Circa il timore manifestato dal Rev.mo P. Ersin S.J., a me sembra che non abbia un
+            solido fondamento. Basterà notare la fermezza di carattere dimostrata dall’Innitzer in
+            più occasioni e particolarmente quando fu Rettore Magnifico di questa Università dove
+            trovansi parecchi Professori ebrei e protestanti, che seppe con molto tatto ed energia
+            metterli a <note type="foliation" rend="typewritten">36</note>
+            <pb n="2"/>posto come se ne presentasse il caso; e quando fu Ministro della Providenza
+            Sociale diportandosi nobilmente contro i socialisti in pubblica Camera nelle varie volte
+            che questi intaccavano gli interessi della Chiesa.</p>
+         <p>Credo che il suo carattere affabile, dolce, aperto, franco e condiscendente in ciò che è
+            possibile, abbia potuto far sorgere quel timore di debolezza, che i fatti però
+            dimostrano infondato.</p>
+         <p>Egli è nato in Weipert (Boemia) il 25 dicembre 1875, ed ha compiuto gli studii teologici
+            nel Seminario di Vienna.</p>
+         <p>La circostanza di essere di origine boema non presenta assolutamente difficoltà alcuna
+            per la sua scelta, essendovi qui a Vienna e altrove parecchi sacerdoti nati fuori
+            dell’Austria attuale, ma che godono pienamente della cittadinanza austriaca, e perciò
+            considerati come veri austriaci.</p>
+         <closer>
+            <salute><lb/>Inchinato al bacio della Sacra Porpora, col più profondo ossequio ho
+               <lb/>l’onore di riaffermarmi <lb/>della Eminenza Vostra Reverendissima </salute>
+            <signed rend="handwritten"><lb/>Umilissimo, devmo, obbmo Servo <lb/>+Enrico, Arciv. di
+               Side <lb/>Nunzio Aplico </signed>
+         </closer>
+      </body>
+   </text>
+</TEI>
